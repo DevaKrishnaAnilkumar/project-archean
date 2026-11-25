@@ -47,10 +47,13 @@ class ArtificialCell:
         if self.energy <= 0:
             self.is_alive = False
 
-def run_simulation(generations=100, steps_per_gen=200):
+def run_simulation(generations=100, steps_per_gen=200, *, snapshot=None, plot=True):
     vent_position = np.array([25.0, 25.0])  # Energy center
     # Initial population set to 100 for better genetic diversity
     population = [ArtificialCell(np.random.uniform(0, 50, 2), lineage_id=i) for i in range(100)]
+
+    if snapshot is not None:
+        snapshot(0, population)
 
     history_lifespan = []
 
@@ -91,6 +94,9 @@ def run_simulation(generations=100, steps_per_gen=200):
                 print(f"\nExtinction occurred at generation {gen}.")
                 break
 
+        if snapshot is not None:
+            snapshot(gen + 1, population)
+
         # Track metrics
         if population:
             avg_age = np.mean([c.age for c in population])
@@ -111,7 +117,7 @@ def run_simulation(generations=100, steps_per_gen=200):
             break
 
     # Plot evolutionary adaptation
-    if history_lifespan:
+    if plot and history_lifespan:
         plt.plot(history_lifespan)
         plt.title("Evolution of Lifespan Under Homeostatic Pressure")
         plt.xlabel("Generation")
