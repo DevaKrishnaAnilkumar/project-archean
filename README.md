@@ -31,3 +31,5 @@ The historical plot tracks average age among surviving cells at each epoch bound
 ### v2.1 local-sensing experiment
 
 [Protocol and six-seed results](LOCAL_SENSING.md) for navigation using four local concentration probes, paired shuffled and zero-cue controls, and a separately trained exact-direction reference.
+
+[Replication on 20 fresh training seeds](LOCAL_SENSING_REPLICATION.md) includes per-seed paired differences, raw trials and the fixed 85% success threshold.

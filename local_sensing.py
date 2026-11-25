@@ -60,14 +60,14 @@ def evaluate(weights, starts, vents, mode):
     return hits
 
 
-def main(out):
+def main(out, seeds=range(6)):
     out.mkdir(parents=True, exist_ok=False)
     starts, vents = trials()
     np.savez(out / "trials.npz", starts=starts, vents=vents)
     np.testing.assert_allclose(batch_receptors(vents-starts),
                                [receptors(p, v) for p, v in zip(starts, vents)], atol=1e-12)
     rows = []
-    for seed in range(6):
+    for seed in seeds:
         for training in ("local", "exact"):
             np.random.seed(seed)
 
@@ -97,4 +97,8 @@ def main(out):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("output", type=Path)
-    main(parser.parse_args().output)
+    parser.add_argument("--seeds", type=int, nargs="+", default=list(range(6)))
+    args = parser.parse_args()
+    if len(args.seeds) != len(set(args.seeds)):
+        parser.error("Seeds must be unique.")
+    main(args.output, args.seeds)

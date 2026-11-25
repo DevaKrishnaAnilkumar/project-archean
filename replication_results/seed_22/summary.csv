@@ -1,0 +1,9 @@
+seed,training,epoch,population,lineages,cue,reach
+22,local,0,100,100,local,0.2001953125
+22,local,0,100,100,shuffled,0.20833333333333334
+22,local,0,100,100,zero,0.19986979166666666
+22,local,5,500,1,local,0.9576822916666666
+22,local,5,500,1,shuffled,0.2646484375
+22,local,5,500,1,zero,0.2060546875
+22,exact,0,100,100,exact,0.248046875
+22,exact,5,500,29,exact,0.6015625
