@@ -27,3 +27,7 @@ The historical plot tracks average age among surviving cells at each epoch bound
 ![Evolution of Lifespan](evolution_plot.png)
 
 *Simulation built in Python/NumPy.*
+
+### v2.1 local-sensing experiment
+
+[Protocol and six-seed results](LOCAL_SENSING.md) for navigation using four local concentration probes, paired shuffled and zero-cue controls, and a separately trained exact-direction reference.

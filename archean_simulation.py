@@ -29,10 +29,10 @@ class ArtificialCell:
             mutation_rate = 0.05
             self.weights = weights + np.random.normal(0, mutation_rate, size=weights.shape)
 
-    def act(self, vent_position):
+    def act(self, vent_position, sense=None):
         # Stage 4: Active Inference / Minimizing Surprise
         # Calculate sensory inputs
-        delta = vent_position - self.position
+        delta = vent_position - self.position if sense is None else sense(self.position, vent_position)
         sensory_inputs = np.array([delta[0], delta[1], self.energy])
 
         # Compute movement vector via matrix multiplication
@@ -47,7 +47,7 @@ class ArtificialCell:
         if self.energy <= 0:
             self.is_alive = False
 
-def run_simulation(generations=100, steps_per_gen=200, *, snapshot=None, plot=True):
+def run_simulation(generations=100, steps_per_gen=200, *, snapshot=None, plot=True, sense=None):
     vent_position = np.array([25.0, 25.0])  # Energy center
     # Initial population set to 100 for better genetic diversity
     population = [ArtificialCell(np.random.uniform(0, 50, 2), lineage_id=i) for i in range(100)]
@@ -71,7 +71,7 @@ def run_simulation(generations=100, steps_per_gen=200, *, snapshot=None, plot=Tr
                 if distance_to_vent < 15.0:
                     cell.energy += 15.0  # Energy reward
 
-                cell.act(vent_position)
+                cell.act(vent_position, sense)
 
                 if cell.is_alive:
                     # Stage 1 & 2: Replication Threshold
