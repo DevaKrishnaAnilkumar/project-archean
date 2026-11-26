@@ -33,3 +33,7 @@ The historical plot tracks average age among surviving cells at each epoch bound
 [Protocol and six-seed results](LOCAL_SENSING.md) for navigation using four local concentration probes, paired shuffled and zero-cue controls, and a separately trained exact-direction reference.
 
 [Replication on 20 fresh training seeds](LOCAL_SENSING_REPLICATION.md) includes per-seed paired differences, raw trials and the fixed 85% success threshold.
+
+### v2.2 inherited experience and intervention
+
+[Protocol, controls, and forty-seed results](INHERITANCE.md) for the companion experiments on inherited cue memories, action-dependent help, and internal action-cost estimates. Run `python inherited_experience.py new_results` to reproduce them.
