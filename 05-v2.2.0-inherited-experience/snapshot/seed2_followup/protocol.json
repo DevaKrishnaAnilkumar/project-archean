@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "training_seeds": [
+    2
+  ],
+  "evaluation_seed": 20261125,
+  "epochs": 10,
+  "steps_per_epoch": 200,
+  "starts": 96,
+  "outside_starts": 64,
+  "source_base": "db28afb06bbaae807a7b9196e8525c3ee9f07964"
+}
