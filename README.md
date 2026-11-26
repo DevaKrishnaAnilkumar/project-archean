@@ -1,39 +1,28 @@
-# Project Archean: Emergent Chemotaxis via Homeostatic Constraints
+# Project Archean
 
-## Abstract
-This repository implements a bottom-up, artificial life (ALife) framework testing an inversion of the current AI paradigm. While modern deep learning models focus on top-down cognitive tasks (text tokens, static optimization datasets), **Project Archean** models intelligence as an emergent byproduct of autopoiesis and thermodynamic self-maintenance. 
+When does an artificial organism benefit from inheriting what its parent learned? Archean explores this question in Python and NumPy through two models. In a spatial simulation, cells spend energy, reproduce and pass on movement controllers. A separate two-choice experiment tests what happens when offspring explicitly copy a parent's learned preference.
 
-Agents (Artificial Cells) are embedded in a continuous grid environment containing a localized feeding zone. They receive no explicit task-reward labels. Instead, they operate under strict metabolic costs where survival and replication are the sole evolutionary drivers.
+## Experiments
 
-## Theoretical Foundations
-1. **The Free Energy Principle & Autopoiesis:** Self-maintenance motivates the model. The implemented controller maps exact vent offsets and current energy directly to movement. Learning a predictive model is a future research question.
-2. **Lineage Memory ("The Soul"):** Offspring inherit six movement weights with mutation. The baseline experiment saves these weights and founder IDs at epoch boundaries.
+| Study | Finding | Protocol and evidence |
+|---|---|---|
+| Navigation baseline | With the exact direction to food available, two of three populations reached it from over 99% of outside starts after five epochs. | [Design](docs/RESEARCH.md) · [Data](results/navigation/summary.csv) · [Extended run](results/navigation-seed2/summary.csv) |
+| Local sensing | Across 20 fresh populations, mean vent-reaching was 74.5% with genuine local cues and 26.6% when cues were shuffled. | [Pilot](docs/LOCAL_SENSING.md) · [Replication and figure](docs/LOCAL_SENSING_REPLICATION.md) · [Paired results](results/local-sensing-replication/paired_rates.csv) |
+| Inherited experience | Across 2,560 simulated families, offspring with parental memory chose correctly on 89.2% of first trials when the cue stayed stable and 10.8% when it reversed. | [Protocol and controls](docs/INHERITANCE.md) · [Seed-level results](results/inheritance/per_seed.csv) |
 
-## Simulation Mechanics
-* **Metabolic Cost:** Every simulation step costs `0.5` energy units.
-* **Homeostasis:** If internal energy drops to `0`, the agent is permanently pruned from the simulation (death).
-* **Mitosis:** If an agent reaches `200` units of energy, it undergoes cellular division, passing mutated neural weights down to its lineage.
-* **Carrying Capacity:** The environment supports a maximum of 500 agents, retaining the highest-energy cells whenever the cap is exceeded.
+The copying rule in the inheritance experiment is supplied by design. Whether selection favours copying, revising or discarding experience remains an open research question.
 
-## Experimental Progression & Tuning
+## Run an experiment
 
-* **v1.0 - The Great Filter:** Initialized with harsh metabolic costs. Result: **Extinction at Gen 0.** The baseline entropy outpaced random exploration. 
-* **v1.1 - The Cambrian Explosion:** Relaxed metabolic decay and expanded vent radius. Result: **Runaway Population.** The population exploded to 200,000+ agents by Gen 1. The replication mechanism succeeded, but the lack of resource limits removed evolutionary pressure.
-* **v1.2 - The Evolutionary Bottleneck:** Implemented a strict carrying capacity (500 agents). Result: **Stabilized Evolution.** The environment now prunes the weakest agents dynamically. The navigation experiment measures how this selection changes the distribution of controller performance.
+From the repository root, with Python, NumPy and Matplotlib installed, choose a fresh output directory.
 
-## Results: Generational Adaptation
-The historical plot tracks average age among surviving cells at each epoch boundary. For the frozen-controller vent-reaching experiment and the planned local-sensing and inherited-memory studies, see [the research programme](RESEARCH.md).
+```sh
+python inherited_experience.py my_inheritance_results
+python -m unittest -q
+```
 
-![Evolution of Lifespan](evolution_plot.png)
+The protocol for each study gives its reproduction commands. The [model history](docs/MODEL_HISTORY.md) records earlier tuning decisions. The [research programme](docs/RESEARCH.md) describes the original plan.
 
-*Simulation built in Python/NumPy.*
+## Research checkpoints
 
-### v2.1 local-sensing experiment
-
-[Protocol and six-seed results](LOCAL_SENSING.md) for navigation using four local concentration probes, paired shuffled and zero-cue controls, and a separately trained exact-direction reference.
-
-[Replication on 20 fresh training seeds](LOCAL_SENSING_REPLICATION.md) includes per-seed paired differences, raw trials and the fixed 85% success threshold.
-
-### v2.2 inherited experience and intervention
-
-[Protocol, controls, and forty-seed results](INHERITANCE.md) for the companion experiments on inherited cue memories, action-dependent help, and internal action-cost estimates. Run `python inherited_experience.py new_results` to reproduce them.
+[Navigation baseline · v2.0.0](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/v2.0.0) · [Local-sensing pilot · v2.1.0](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/v2.1.0) · [Inherited experience · v2.2.0](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/v2.2.0)

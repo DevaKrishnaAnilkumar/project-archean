@@ -6,7 +6,7 @@ At epoch five, genuine sensing averaged 74.5% reach and shuffled sensing average
 
 All 20 local and 20 exact populations reached epoch five. Each row summarises 32 sampled frozen controllers on the same 96 outside-zone starts. The independent unit is one training seed. This experiment measures repeatability over training populations for the same noiseless field, four test vents and fixed trial/shuffle schedule.
 
-![Paired reach rates](replication_results/paired_reach.png)
+![Paired reach rates](../results/local-sensing-replication/paired_reach.png)
 
 | Seed | Genuine (%) | Shuffled (%) | Difference (pp) |
 |---|---:|---:|---:|

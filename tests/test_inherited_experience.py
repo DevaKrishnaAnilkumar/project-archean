@@ -24,7 +24,7 @@ class InheritanceTests(unittest.TestCase):
         from pathlib import Path
         for seed in range(40):
             _, raw = replicate(seed)
-            path = Path(__file__).parent / 'inheritance_results' / f'seed_{seed:02}.npz'
+            path = Path(__file__).resolve().parents[1] / 'results' / 'inheritance' / f'seed_{seed:02}.npz'
             with np.load(path, allow_pickle=False) as stored:
                 self.assertEqual(set(raw), set(stored.files))
                 for key in stored.files:

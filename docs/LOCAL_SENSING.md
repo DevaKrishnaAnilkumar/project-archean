@@ -12,7 +12,7 @@ For every local controller use three paired evaluations: genuine receptor readin
 
 ## Reproduce
 
-Run `python -m unittest -q test_local_sensing` and `OPENBLAS_NUM_THREADS=1 python local_sensing.py my_local_results` in the repository with NumPy and Matplotlib available. Use a new output directory. The summary contains population and founder-lineage counts. NPZ files contain starts and vents or selected indices, frozen weights and first-contact steps (−1 for misses). Exact and local training share seed initialization. Trial generation, controller sampling and shuffling use independent RNGs from training.
+Run `python -m unittest -q tests.test_local_sensing` and `OPENBLAS_NUM_THREADS=1 python local_sensing.py my_local_results` in the repository with NumPy and Matplotlib available. Use a new output directory. The summary contains population and founder-lineage counts. NPZ files contain starts and vents or selected indices, frozen weights and first-contact steps (−1 for misses). Exact and local training share seed initialization. Trial generation, controller sampling and shuffling use independent RNGs from training.
 
 ## Results
 
