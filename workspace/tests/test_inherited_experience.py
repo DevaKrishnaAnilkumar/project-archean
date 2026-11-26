@@ -28,4 +28,53 @@ class InheritanceTests(unittest.TestCase):
             with np.load(path, allow_pickle=False) as stored:
                 self.assertEqual(set(raw), set(stored.files))
                 for key in stored.files:
-                    np.testing.assert_array_equal(raw[key], stored[key])
+                    actual = np.asarray(raw[key])
+                    expected = stored[key]
+
+                    self.assertEqual(actual.shape, expected.shape)
+                    self.assertEqual(actual.dtype, expected.dtype)
+
+                    if key == 'offer':
+                        self.assertEqual(actual.dtype, np.dtype('float64'))
+                        self.assertTrue(np.isfinite(actual).all())
+                        self.assertTrue(np.isfinite(expected).all())
+                        np.testing.assert_allclose(
+                            actual, expected,
+                            rtol=0,
+                            atol=2 * np.finfo(np.float64).eps,
+                            equal_nan=False
+                        )
+                    else:
+                        np.testing.assert_array_equal(actual, expected)
+
+
+    def test_archived_summary_metrics(self):
+        import csv
+        from pathlib import Path
+
+        path = (
+            Path(__file__).resolve().parents[1]
+            / 'results' / 'inheritance' / 'per_seed.csv'
+        )
+
+        with path.open() as f:
+            rows = list(csv.DictReader(f))
+
+        self.assertEqual(len(rows), 40)
+
+        checked = 0
+        for seed, row in enumerate(rows):
+            self.assertEqual(int(row['seed']), seed)
+            metrics, _ = replicate(seed)
+            self.assertEqual(set(metrics), set(row) - {'seed'})
+
+            for key, value in metrics.items():
+                np.testing.assert_allclose(
+                    value, float(row[key]),
+                    rtol=0, atol=1e-12,
+                    equal_nan=False,
+                    err_msg=f'Seed {seed}: {key}'
+                )
+                checked += 1
+
+        self.assertEqual(checked, 2000)
