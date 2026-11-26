@@ -146,5 +146,40 @@ All future rows are proposals (not verified findings or approved protocols). Com
 | 2026-11-26 | F-001–F-010, M-001–M-004 | Initial retrospective registration | E01–E06; scoped evidence and explicit historical limitations. Not retroactive pre-registration. |
 | 2026-11-26 | H-001–H-004, F-011–F-015, M-005 | Initial registration of completed study | [Locked pre-execution checkpoint](https://github.com/DevaKrishnaAnilkumar/project-archean/commit/091731949bb5ad5eac74c0257d05a98c8d1a4786) and [publication checkpoint](https://github.com/DevaKrishnaAnilkumar/project-archean/commit/4fa6bd7ecd3a59fe0d31e0d3dfa3f5239e09e740). H-001 primary supported; H-002–H-004 exploratory; audit is computational, not fresh-seed replication. |
 | 2026-11-26 | H-005–H-017, Q-001–Q-020, M-006–M-014 | Initial prospective registration | E08, original research programme and project discussions. No designated studies executed for these hypotheses; new protocols and review required. |
+| 2026-11-26 | Q-021–Q-047 | Initial prospective registration | Foundational handover consolidation; 27 distinct open questions, 9 linked refinements. No change to existing scientific statuses or milestone states. |
 
 For later changes, append a row with date, exact ID, previous and new status, evidence link/commit and reason. If an item is split or superseded, link the new IDs and preserve the original. Use experiment-specific reports for details, not ever-growing duplicated result tables.
+
+## 9. Foundational question additions (26 November 2026)
+
+[Foundational index](foundations/INDEX.md) · [Full candidate dispositions](foundations/RESEARCH_QUESTIONS.md). All 36 candidates have a disposition; existing IDs are not renumbered or reclassified. The following are distinct prospective questions, not findings.
+
+| ID | Question | Scientific status | Detail |
+| --- | --- | --- | --- |
+| Q-021 | Comparative evolutionary forecasting of visual receptors, anatomy and behaviour; estimate conditional future adaptations rather than a unique next species. | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-001--q-021) |
+| Q-022 | Can sensing range, modality, sensitivity and actuator morphology coevolve with controllers? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-002--q-022) |
+| Q-023 | When does a selective, incomplete representation outperform a more accurate or comprehensive one? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-003--q-023) |
+| Q-024 | Can agents infer hidden environmental variables and distinguish stable causal rules from temporary noise or coincidence? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-004--q-024) |
+| Q-025 | Do event-based time, internal oscillators, temporal memory or prediction offer advantages under recurring or irregular conditions? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-005--q-025) |
+| Q-026 | Does adaptive weighting of expectations and observations improve control following shifts or under noisy cues? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-007--q-026) |
+| Q-027 | Does an explicit persistent internal state enable useful memory without a neural network? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-009--q-027) |
+| Q-028 | Can selection favour memory consolidation or offline simulation despite missed resource acquisition opportunities? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-012--q-028) |
+| Q-029 | Can inherited records be compressed, selectively retrieved or reinterpreted without sacrificing novel-environment adaptation? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-014--q-029) |
+| Q-030 | What transmission fidelity, repair, redundancy and mutation rates support cumulative adaptation under information damage? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-015--q-030) |
+| Q-031 | How do multiple competing physiological requirements and harmful resource excess create priorities? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-017--q-031) |
+| Q-032 | Can regulation of regulation, metabolic flexibility or dynamic internal processing become selectively beneficial? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-018--q-032) |
+| Q-033 | When does persistence, goal revision or counterfactual planning outperform immediate response? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-019--q-033) |
+| Q-034 | Can metacognitive confidence estimates and recursive self-evaluation improve adaptation? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-020--q-034) |
+| Q-035 | Can agents distinguish self-caused versus externally caused changes and maintain useful self-models? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-021--q-035) |
+| Q-036 | Do global access or selective broadcasting improve coordination over local, centralized or distributed alternatives? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-022--q-036) |
+| Q-037 | Can initially incidental traces become useful cues and later controllable signals through exaptation? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-023--q-037) |
+| Q-038 | Can culturally transmitted symbols acquire functional meaning and cumulative utility? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-024--q-038) |
+| Q-039 | Can independently viable components form higher-order evolutionary individuals? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-026--q-039) |
+| Q-040 | Can resource recycling, niche construction and emergent ecosystem recovery arise, or does increased capability cause collapse? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-027--q-040) |
+| Q-041 | Can population bottlenecks, migration, unequal reproduction and catastrophes change adaptive potential independently of population size? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-029--q-041) |
+| Q-042 | Can life-like organisation emerge before a programmer-defined agent exists? (Genesis exploratory branch.) | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-030--q-042) |
+| Q-043 | Can an inherited information-bearing structure both store information and perform a functional role? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-031--q-043) |
+| Q-044 | How do environment-level reproduction, variation and inheritance affect nested artificial ecosystems? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-032--q-044) |
+| Q-045 | Can functional continuity after duplication or restoration be distinguished from structural similarity and subjective identity? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-033--q-045) |
+| Q-046 | What functional indicators and ethical review thresholds are appropriate as capabilities increase? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-034--q-046) |
+| Q-047 | What architecture is necessary, sufficient, advantageous or redundant for a specified capability? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-035--q-047) |
