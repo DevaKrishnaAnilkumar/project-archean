@@ -21,9 +21,13 @@ Project Archean explores this question through Python/NumPy simulations. It star
 
 The spatial studies measure navigation and cue dependence under defined selection and sensory rules. The inheritance study causally compares supplied memory states in a separate model with a designed learning and copying mechanism. The historical age plot is not a direct navigation measure. None of these experiments establishes the emergence of general intelligence, consciousness or the evolution of an inheritance channel.
 
+## Current research — v2.3.1: Lifetime learning
+
+A pre-specified 40-seed spatial resource-choice experiment found that a designed adaptive-memory mechanism improved late-acquisition correct choices by 36.43 percentage points (95% paired CI 35.61–37.25) relative to frozen memory. The recorded outcomes were independently computationally audited. See the [results, evidence and limitations](workspace/experiments/v2_3_lifetime_learning/RESULTS.md). This is a controlled learning assay, not evolved learning or a new historical snapshot.
+
 ## Research direction
 
-The next question is whether selection favours mechanisms that acquire, retain, revise, transmit or discard information when transmission and sensing carry costs and environments change. Proposed directions include integrating mutable lifetime memory into the spatial population, testing stable versus changing ecologies, and comparing individual survival and descendant-based selection. These are planned experiments, not completed results. See the [original research programme](02-v2.0.0-navigation/snapshot/RESEARCH.md).
+Under what environmental and evolutionary conditions do measurable cognitive capacities become more advantageous than simpler survival strategies, and when does their value persist across generations? The [research agenda and open questions](workspace/docs/FUTURE_DIRECTIONS.md) record human-evolution-inspired hypotheses, heritable plasticity, lineage persistence, cognitive costs, social learning, a proposed autonomous evolutionary ecosystem and eventual AI-training comparisons. These are prospective directions, not established findings. See also the [original research programme](02-v2.0.0-navigation/snapshot/RESEARCH.md).
 
 ## Explore and reproduce
 

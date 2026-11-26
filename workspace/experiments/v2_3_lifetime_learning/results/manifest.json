@@ -1,0 +1,123 @@
+{
+  "mode": "research",
+  "seeds": [
+    2300,
+    2301,
+    2302,
+    2303,
+    2304,
+    2305,
+    2306,
+    2307,
+    2308,
+    2309,
+    2310,
+    2311,
+    2312,
+    2313,
+    2314,
+    2315,
+    2316,
+    2317,
+    2318,
+    2319,
+    2320,
+    2321,
+    2322,
+    2323,
+    2324,
+    2325,
+    2326,
+    2327,
+    2328,
+    2329,
+    2330,
+    2331,
+    2332,
+    2333,
+    2334,
+    2335,
+    2336,
+    2337,
+    2338,
+    2339
+  ],
+  "cohort_size": 64,
+  "trials": 32,
+  "conditions": [
+    [
+      "adaptive",
+      "stable",
+      160
+    ],
+    [
+      "adaptive",
+      "stable",
+      24
+    ],
+    [
+      "adaptive",
+      "reversed",
+      160
+    ],
+    [
+      "adaptive",
+      "reversed",
+      24
+    ],
+    [
+      "frozen",
+      "stable",
+      160
+    ],
+    [
+      "frozen",
+      "stable",
+      24
+    ],
+    [
+      "frozen",
+      "reversed",
+      160
+    ],
+    [
+      "frozen",
+      "reversed",
+      24
+    ],
+    [
+      "cue_blind",
+      "stable",
+      160
+    ],
+    [
+      "cue_blind",
+      "stable",
+      24
+    ],
+    [
+      "cue_blind",
+      "reversed",
+      160
+    ],
+    [
+      "cue_blind",
+      "reversed",
+      24
+    ]
+  ],
+  "checkpoint": "091731949bb5ad5eac74c0257d05a98c8d1a4786",
+  "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+  "numpy": "2.0.2",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "architecture": "arm64",
+  "source_sha256": {
+    "PROTOCOL.md": "8b5e6fb17d2df784a615cabb2be931fb87df3b4975bd1b5c4ad7d6d028c77d87",
+    "IMPLEMENTATION.md": "15ca6b99a4eea3e0a3c547dd9aa77b60d175c8eb0e218123c4669dfa93c62352",
+    "model.py": "fa19b1a9fde8086c7000e4533035d55eb5bcc0705a49e1814938d2af25ca1e8e",
+    "test_model.py": "2d65d8722468286e2a4ea11df4af9c8f745181afd35b1a7d580965261771cc1e",
+    "run_study.py": "593bc4ec822248d29753de83451e537e7479e8e3b25586c559f40724d240bf37",
+    "test_runner.py": "850435ed2f258c050181571c59b209d7b1f32bdb7d78798b4c45abef03ec780f",
+    "ANALYSIS.md": "c0ad76c39cb6a3297f318a69ca72613a203f921798de9e96b2ebc8e426e91d70"
+  }
+}

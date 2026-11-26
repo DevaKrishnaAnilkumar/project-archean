@@ -1,0 +1,34 @@
+{
+  "mode": "research",
+  "seed_count": 40,
+  "condition_rows": 480,
+  "primary": {
+    "n": 40,
+    "mean": 0.364306640625,
+    "sample_sd": 0.025584379616522455,
+    "lower_95": 0.35612435906952494,
+    "upper_95": 0.3724889221804751,
+    "supports_primary": true
+  },
+  "exploratory_mean_contrasts": {
+    "reversal_late_minus_early": 0.573486328125,
+    "reversal_late_minus_stable": -0.148486328125,
+    "genuine_minus_blind_late_acquisition": 0.404150390625,
+    "stable_160_adaptive_minus_frozen_survival": 0.0,
+    "stable_160_adaptive_minus_frozen_final_energy": 61.26875,
+    "stable_160_adaptive_minus_cue_blind_survival": 0.0,
+    "stable_160_adaptive_minus_cue_blind_final_energy": 65.85625,
+    "stable_24_adaptive_minus_frozen_survival": 0.266796875,
+    "stable_24_adaptive_minus_frozen_final_energy": 60.775,
+    "stable_24_adaptive_minus_cue_blind_survival": 0.33046875,
+    "stable_24_adaptive_minus_cue_blind_final_energy": 64.634375,
+    "reversed_160_adaptive_minus_frozen_survival": 0.0,
+    "reversed_160_adaptive_minus_frozen_final_energy": 28.4375,
+    "reversed_160_adaptive_minus_cue_blind_survival": 0.0,
+    "reversed_160_adaptive_minus_cue_blind_final_energy": 32.959375,
+    "reversed_24_adaptive_minus_frozen_survival": 0.229296875,
+    "reversed_24_adaptive_minus_frozen_final_energy": 27.928125,
+    "reversed_24_adaptive_minus_cue_blind_survival": 0.28984375,
+    "reversed_24_adaptive_minus_cue_blind_final_energy": 31.921875
+  }
+}
