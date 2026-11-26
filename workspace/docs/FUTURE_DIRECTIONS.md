@@ -2,6 +2,8 @@
 
 **Status:** Prospective research agenda, 26 November 2026. These are proposals and open questions, not completed experiments, approved protocols or claims of novelty.
 
+For the current evidence and milestone status of each research item, see the [living research register](RESEARCH_REGISTER.md).
+
 ## Central question
 
 Under what environmental and evolutionary conditions do measurable cognitive capacities become more advantageous than simpler survival strategies, and when does their value persist across generations?

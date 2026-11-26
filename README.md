@@ -29,6 +29,8 @@ A pre-specified 40-seed spatial resource-choice experiment found that a designed
 
 Under what environmental and evolutionary conditions do measurable cognitive capacities become more advantageous than simpler survival strategies, and when does their value persist across generations? The [research agenda and open questions](workspace/docs/FUTURE_DIRECTIONS.md) record human-evolution-inspired hypotheses, heritable plasticity, lineage persistence, cognitive costs, social learning, a proposed autonomous evolutionary ecosystem and eventual AI-training comparisons. These are prospective directions, not established findings. See also the [original research programme](02-v2.0.0-navigation/snapshot/RESEARCH.md).
 
+The [living research register](workspace/docs/RESEARCH_REGISTER.md) distinguishes scoped verified findings, exploratory evidence, hypotheses, unresolved questions and milestone progress, with stable IDs and a dated status history.
+
 ## Explore and reproduce
 
 Each numbered folder has a stage-specific README containing the question, findings, limitations and reproduction instructions. Its `snapshot/` directory is an exact copy of the tracked Git tree at that historical checkpoint, including the original README, source, available tests and recorded results. Later snapshots intentionally contain earlier files because those were part of the checkpoint and may be dependencies. No root-level simulation files are needed to run a snapshot.
