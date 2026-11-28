@@ -3,7 +3,7 @@
 Edition 1.0 · 26 November 2026. Historical inspiration and prospective research questions, not a new experimental result or approved protocol.
 
 - [Canonical living research register](../RESEARCH_REGISTER.md)
-- [Founding vision and methodological boundaries](FOUNDING_VISION.md)
+- [Foundational research objectives and methodological boundaries](FOUNDING_VISION.md)
 - [Question details and candidate dispositions](RESEARCH_QUESTIONS.md)
 - [Historical source catalogue](SOURCE_HISTORY.md)
 - [Literature verification queue](LITERATURE_QUEUE.md)

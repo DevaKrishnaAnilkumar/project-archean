@@ -2,16 +2,16 @@
 
 ## Provenance
 
-Researcher-originated discussion, 28 November 2026:
-Polyworld-inspired self-learning and evolving agents, and
-continuous or exponential challenges favouring intelligence.
+Researcher-originated proposal, 28 November 2026:
+compare evolving learning mechanisms in artificial-life agents
+and test fixed or adaptive environmental challenge schedules.
+Whether these favour adaptive capabilities is an open hypothesis.
 
-Assistant-developed extensions distinguish lifetime
+AI-assisted experimental formulations distinguish lifetime
 plasticity, heritable mechanisms, escalating environments,
 and explicit capability objectives.
 
-Original wording and philosophical motivations remain in
-the private archive, separate from public scientific claims.
+Original provenance remains in the private archive.
 
 ## Q-053 / M-017: Lifetime structural plasticity
 

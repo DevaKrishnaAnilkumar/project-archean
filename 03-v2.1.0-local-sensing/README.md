@@ -2,7 +2,7 @@
 
 [Back to research overview](../README.md) · [Exact historical checkpoint](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/6cad1e4b2931fa685375a3eb8f4d9dd54dd79aa8) · [Tag v2.1.0](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/v2.1.0)
 
-This is a retrospective guide. The `snapshot/` directory preserves the entire tracked tree at commit `6cad1e4b2931fa685375a3eb8f4d9dd54dd79aa8` byte-for-byte, including its original README and relative paths. This is a historical checkpoint, not a newly run experiment.
+This is a retrospective guide to historical checkpoint `6cad1e4b2931fa685375a3eb8f4d9dd54dd79aa8`. The `snapshot/` directory is a curated copy with editorial revisions to documentation and source annotations; executable logic and recorded results are retained. Exact original files are preserved separately. This is not a newly run experiment.
 
 ## Research question
 Can selection improve navigation using local concentration differences instead of exact vent offsets, and does removing meaningful cues impair navigation?
@@ -13,7 +13,7 @@ Six independent seeds compared exact-direction and local-sensing training. Local
 Mean evolved local reach was 48.9% with genuine cues, 22.8% with shuffled cues and 19.7% with zero cues. The separately evolved exact-direction reference averaged 75.1%. All six local populations persisted through five epochs; performance varied substantially between seeds.
 
 ## Evidence
-- [Original README (unchanged)](snapshot/README.md)
+- [Historical model overview (editorially revised)](snapshot/README.md)
 - [Protocol and six-seed results](snapshot/LOCAL_SENSING.md)
 - [Experiment source](snapshot/local_sensing.py) and [unit tests](snapshot/test_local_sensing.py)
 - [Recorded pilot results](snapshot/local_results/)

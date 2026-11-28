@@ -33,7 +33,7 @@ Each candidate is a retrospective synthesis dated 26 November 2026. The canonica
 | C-027 | New open question | Q-040 | Can resource recycling, niche construction and emergent ecosystem recovery arise, or does increased capability cause collapse? |
 | C-028 | Refinement | Q-009/Q-019 | What is the role of finite energy conversion, storage, construction and resource availability in adaptive organisation? |
 | C-029 | New open question | Q-041 | Can population bottlenecks, migration, unequal reproduction and catastrophes change adaptive potential independently of population size? |
-| C-030 | New open question | Q-042 | Can life-like organisation emerge before a programmer-defined agent exists? (Genesis exploratory branch.) |
+| C-030 | New open question | Q-042 | Can life-like organisation emerge before a programmer-defined agent exists? (Exploratory pre-agent organisation.) |
 | C-031 | New open question | Q-043 | Can an inherited information-bearing structure both store information and perform a functional role? |
 | C-032 | New open question | Q-044 | How do environment-level reproduction, variation and inheritance affect nested artificial ecosystems? |
 | C-033 | New open question | Q-045 | Can functional continuity after duplication or restoration be distinguished from structural similarity and subjective identity? |
@@ -328,7 +328,7 @@ Proposed test / boundary: Effective population size, diversity, pedigree, surviv
 <a id="c-030--q-042"></a>
 ## C-030 — Q-042
 
-Can life-like organisation emerge before a programmer-defined agent exists? (Genesis exploratory branch.)
+Can life-like organisation emerge before a programmer-defined agent exists? (Exploratory pre-agent organisation.)
 
 Historical sources: HO-014, HO-017.
 Related existing IDs: Q-019.
@@ -353,7 +353,7 @@ How do environment-level reproduction, variation and inheritance affect nested a
 Historical sources: HO-006, HO-017.
 Related existing IDs: Q-010, Q-019.
 
-Proposed test / boundary: Define replicating world units and selection mechanism; compare all worlds, including extinction; no physical universe-creation inference. Long-term exploratory.
+Proposed test / boundary: Define replicating world units and selection mechanism; compare all worlds, including extinction; no inference beyond the simulated system. Long-term exploratory.
 
 <a id="c-033--q-045"></a>
 ## C-033 — Q-045
@@ -363,7 +363,7 @@ Can functional continuity after duplication or restoration be distinguished from
 Historical sources: HO-004, HO-005, HO-009.
 Related existing IDs: Q-012.
 
-Proposed test / boundary: Genome-only vs complete-state copy vs continuing instance; compare independent trajectories and divergence. No test of metaphysical soul transfer.
+Proposed test / boundary: Genome-only vs complete-state copy vs continuing instance; compare independent trajectories and divergence. This compares computational trajectories, not subjective identity.
 
 <a id="c-034--q-046"></a>
 ## C-034 — Q-046

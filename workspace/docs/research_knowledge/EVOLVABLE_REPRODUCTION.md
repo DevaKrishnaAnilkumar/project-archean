@@ -6,7 +6,7 @@
 
 ## Origin and attribution
 
-The researcher proposed two-parent reproduction to explore more combinations, contrasting inheritance and mutations. The assistant subsequently proposed that reproduction itself could become an evolvable trait, rather than permanently assigning populations to single-parent or two-parent reproduction. The researcher explicitly requested that this extension be retained as an additional research branch, not merely as conversation memory.
+The original proposal compares two-parent reproduction with mutation-based variation. An AI-assisted extension treats reproductive mode itself as an evolvable trait rather than a permanently assigned population condition. This is a separate prospective research branch.
 
 ## Research question
 

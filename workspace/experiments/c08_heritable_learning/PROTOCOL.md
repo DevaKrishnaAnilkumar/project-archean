@@ -383,6 +383,6 @@ C08 is confirmed for execution subject to baseline integrity, protocol completen
 
 Stop after returning its review package.
 
-Do not automatically proceed to C09, publish the repository, revise the CV or modify the research proposal.
+Do not automatically proceed to C09 or publish the repository.
 
 Permanent knowledge-register additions require research-planning review.

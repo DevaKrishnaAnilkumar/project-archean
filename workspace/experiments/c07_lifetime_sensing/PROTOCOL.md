@@ -12,7 +12,7 @@ Proceed with C07 as a controlled lifetime-learning experiment.
 
 The overarching research objective remains survival-driven adaptation. Learning is a candidate survival mechanism, not an independently rewarded achievement.
 
-Do not revise the application documents or publish repository changes.
+Do not publish repository changes.
 
 ## 2. Starting checkpoint
 
@@ -364,7 +364,7 @@ Do not proceed automatically to reproduction, inheritance evolution or long-dura
 
 Return all evidence for independent scientific review.
 
-Do not push, merge, publish or revise application documents.
+Do not push, merge or publish.
 
 ## 18. Scientific boundaries
 

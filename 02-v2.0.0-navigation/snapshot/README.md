@@ -1,29 +1,27 @@
-# Project Archean: Emergent Chemotaxis via Homeostatic Constraints
+# Project Archean: Spatial population model under metabolic constraints
 
 ## Abstract
-This repository implements a bottom-up, artificial life (ALife) framework testing an inversion of the current AI paradigm. While modern deep learning models focus on top-down cognitive tasks (text tokens, static optimization datasets), **Project Archean** models intelligence as an emergent byproduct of autopoiesis and thermodynamic self-maintenance. 
-
-Agents (Artificial Cells) are embedded in a continuous grid environment containing a localized feeding zone. They receive no explicit task-reward labels. Instead, they operate under strict metabolic costs where survival and replication are the sole evolutionary drivers.
+This historical artificial-life model investigates selection on movement controllers under a fixed metabolic budget, reproduction with mutation and a population cap. Agents receive exact offsets to a nondepleting feeding zone and current energy. There is no task-specific accuracy reward; resource uptake, mortality, replication and cap-based retention define the selection environment.
 
 ## Theoretical Foundations
-1. **The Free Energy Principle & Autopoiesis:** Self-maintenance motivates the model. The implemented controller maps exact vent offsets and current energy directly to movement. Learning a predictive model is a future research question.
-2. **Lineage Memory ("The Soul"):** Offspring inherit six movement weights with mutation. The baseline experiment saves these weights and founder IDs at epoch boundaries.
+1. **Self-maintenance and control:** The controller maps exact vent offsets and internal energy to movement. It does not learn a predictive model during a lifetime.
+2. **Heritable controller parameters:** Offspring inherit six movement weights with mutation. Epoch-boundary weight retention is distinct from acquired lifetime memory.
 
 ## Simulation Mechanics
 * **Metabolic Cost:** Every simulation step costs `0.5` energy units.
-* **Homeostasis:** If internal energy drops to `0`, the agent is permanently pruned from the simulation (death).
-* **Mitosis:** If an agent reaches `200` units of energy, it undergoes cellular division, passing mutated neural weights down to its lineage.
+* **Homeostasis:** If internal energy drops to `0`, the agent is removed from the population (death).
+* **Mitosis:** If an agent reaches `200` units of energy, it reproduces, passing mutated controller weights to its offspring.
 * **Carrying Capacity:** The environment supports a maximum of 500 agents, retaining the highest-energy cells whenever the cap is exceeded.
 
 ## Experimental Progression & Tuning
 
-* **v1.0 - The Great Filter:** Initialized with harsh metabolic costs. Result: **Extinction at Gen 0.** The baseline entropy outpaced random exploration. 
-* **v1.1 - The Cambrian Explosion:** Relaxed metabolic decay and expanded vent radius. Result: **Runaway Population.** The population exploded to 200,000+ agents by Gen 1. The replication mechanism succeeded, but the lack of resource limits removed evolutionary pressure.
-* **v1.2 - The Evolutionary Bottleneck:** Implemented a strict carrying capacity (500 agents). Result: **Stabilized Evolution.** The environment now prunes the weakest agents dynamically. The navigation experiment measures how this selection changes the distribution of controller performance.
+* **v1.0 — Initial extinction:** Retrospective account of extinction at generation 0 under high metabolic cost; original run records unavailable.
+* **v1.1 — Unbounded population growth:** Retrospective account of more than 200,000 agents by generation 1 after tuning; original run records unavailable.
+* **v1.2 — Population cap:** The surviving implementation retains the 500 highest-energy agents when the cap is exceeded. This is an imposed retention rule, not evidence of optimised navigation.
 
-## Results: Generational Adaptation
+## Recorded outcome and limitations
 The historical plot tracks average age among surviving cells at each epoch boundary. For the frozen-controller vent-reaching experiment and the planned local-sensing and inherited-memory studies, see [the research programme](RESEARCH.md).
 
-![Evolution of Lifespan](evolution_plot.png)
+![Mean current age among surviving agents](evolution_plot.png)
 
 *Simulation built in Python/NumPy.*

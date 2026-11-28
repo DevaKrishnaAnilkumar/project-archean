@@ -12,4 +12,4 @@
 | C05 free sensing | Observed negative regime for the one-step heuristic. | Retain the settings and separate later result from C04 scope. |
 | C06 first smoke | Potential and realised reward arrays initially collided on the same NPZ key. See evidence/failures.log in C06. | Fixed as acquired before evaluation. Initial smoke residue retained. |
 | C07 environmental and cost extremes | Unpredictable mappings provided no reliable survival advantage. Expensive sensing shortened lives under the tested compulsory rule. | Keep negative and inconclusive outcomes. |
-| NEAT / topology evolution, continuous familiarity navigation, inheritance evolution, Primordial | Proposed or deferred, with no matching completed experiment artifact in the reviewed chain. | Existing linked proposals remain. Separate authorisation required. |
+| NEAT / topology evolution, continuous familiarity navigation, inheritance evolution, autonomous ecological evolution | Proposed or deferred, with no matching completed experiment artifact in the reviewed chain. | Existing linked proposals remain. Separate authorisation required. |

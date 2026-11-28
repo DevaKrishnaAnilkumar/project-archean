@@ -285,7 +285,7 @@ Do not assign permanent research IDs before scientific review.
 
 Stop after C09. Preserve a clean recoverable checkpoint.
 
-Do not execute C10, publish changes or revise application documents.
+Do not execute C10 or publish changes.
 
 ## Scientific boundaries
 

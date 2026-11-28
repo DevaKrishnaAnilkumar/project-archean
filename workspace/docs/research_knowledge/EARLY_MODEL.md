@@ -31,7 +31,7 @@
 
 ## Residence versus navigation and the order of complexity
 
-CHAT-02 and CHAT-03 preserve retrospective assistant discussion from 25 November. The population cap could favour agents already near the vent. That causal explanation remains open. Log residence time, match starts, randomise retention and relocate whole populations while preserving pedigree labels to test it. Offsets, component capacity, selection and founder variation deserve separate controls before adding structural evolution. This is a methodological rationale linked to F-003/F-004/Q-009/Q-047/M-010.
+Retrospective methodological analysis (25 November 2026): The population cap could favour agents already near the vent. That causal explanation remains open. Log residence time, match starts, randomise retention and relocate whole populations while preserving pedigree labels to test it. Offsets, component capacity, selection and founder variation deserve separate controls before adding structural evolution. This is a methodological rationale linked to F-003/F-004/Q-009/Q-047/M-010.
 
 The unverified informal navigation figures are preserved in the private addendum. They do not match the tracked summary's all-start founder rates (54.96%, 58.46%, 54.40%) and are distinct from the audited outside-start endpoint. The old pilot's exact cohort and start geometry were unavailable. No existing numerical claim should be replaced.
 

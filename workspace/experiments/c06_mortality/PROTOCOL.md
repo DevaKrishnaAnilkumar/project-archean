@@ -12,7 +12,7 @@ Independent reconstruction verified all 928,000 archived simulated episodes and 
 
 Proceed with C06, the mortality-aware extension previously designated Phase C.
 
-Do not update the CV, research proposal, public repository or permanent research register yet.
+Do not update the public repository or permanent research register yet.
 
 ## 2. Starting checkpoint
 
@@ -408,8 +408,8 @@ Therefore, the experiment cannot demonstrate the evolution of intelligence or lo
 
 C06 is confirmed for execution after baseline integrity validation.
 
-Do not proceed automatically to AS-P03, inheritance evolution, v2.4 or Primordial.
+Do not proceed automatically to AS-P03, inheritance evolution, v2.4 or autonomous ecological evolution.
 
 Return the complete evidence package for independent scientific review.
 
-Do not push, merge, publish or revise the application documents.
+Do not push, merge or publish.

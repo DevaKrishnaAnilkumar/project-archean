@@ -12,7 +12,7 @@ AS-P01 passed technical validation but produced an inconclusive comparative outc
 
 Proceed with AS-P02: Cost-sensitive active exploration.
 
-Do not update the academic CV or research proposal. Do not attempt to produce favourable findings through parameter tuning.
+Do not modify unrelated documents. Do not attempt to produce favourable findings through parameter tuning.
 
 ## 2. Starting checkpoint
 
@@ -421,6 +421,6 @@ Return the ZIP and its checksum to the originating research conversation.
 
 Stop after C03 and C04.
 
-Do not push, merge, publish, edit existing evidence, modify the research register or revise the application documents.
+Do not push, merge, publish, edit existing evidence or modify the research register.
 
 Further experiments require scientific review.

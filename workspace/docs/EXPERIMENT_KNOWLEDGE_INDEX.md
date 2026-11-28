@@ -4,7 +4,7 @@ Knowledge integrated locally through C11 on 28 November 2026. The existing RESEA
 
 | Experiment | Evidence and status | Main recovery |
 |---|---|---|
-| v1.0 extinction, v1.1 runaway, v1.2 population cap | Snapshot at db28afb; first two stages retrospective only | [Original wording, absent settings and exact surviving mechanics](research_knowledge/EARLY_MODEL.md) |
+| v1.0 extinction, v1.1 runaway, v1.2 population cap | Snapshot at db28afb; first two stages retrospective only | [Historical accounts, absent settings and surviving mechanics](research_knowledge/EARLY_MODEL.md) |
 | E02 navigation and seed-2 extension | Archived first-hit and population data; C01 reconstructed | [Paired reach, hit time and lineage distribution](research_knowledge/EARLY_MODEL.md#first-contact-gains-coexist-with-slower-successful-contacts) |
 | E03/E04 local sensing | Six pilot and 20 fresh seeds; raw cue interventions | [Seed variation, cue controls and geometry](research_knowledge/EARLY_MODEL.md#local-cue-interventions-test-dependence-on-supplied-information) |
 | E05 inherited memory, responsive aid, replay, withdrawal and own-cost calibration | Forty paired seeds; designed mechanisms | [Energy after recovery and acquisition or signalling cost](research_knowledge/LEARNING_AND_INHERITANCE.md) |
