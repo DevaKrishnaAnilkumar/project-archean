@@ -1,0 +1,12 @@
+test_bayesian_feedback (test_c07.LifetimeTests.test_bayesian_feedback) ... ok
+test_counterfactual_hidden_state_cannot_change_ordinary_actions (test_c07.LifetimeTests.test_counterfactual_hidden_state_cannot_change_ordinary_actions) ... ok
+test_energy_conservation (test_c07.LifetimeTests.test_energy_conservation) ... ok
+test_frozen_oracle_and_null_controls (test_c07.LifetimeTests.test_frozen_oracle_and_null_controls) ... ok
+test_permanent_death_and_abstention_maintenance (test_c07.LifetimeTests.test_permanent_death_and_abstention_maintenance) ... ok
+test_reward_precedes_return_and_fatal_debits (test_c07.LifetimeTests.test_reward_precedes_return_and_fatal_debits) ... ok
+test_schedule_balance_and_replay (test_c07.LifetimeTests.test_schedule_balance_and_replay) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.202s
+
+OK

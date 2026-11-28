@@ -1,0 +1,232 @@
+{
+  "informative": {
+    "low": {
+      "fixed_sequence": [
+        0
+      ],
+      "random_count": 1,
+      "optimal_energy": 17.7893625,
+      "policies": {
+        "no_sensing": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 1.7893625
+        },
+        "fixed": {
+          "energy": 17.6475,
+          "accuracy": 0.85,
+          "visits": 1.0,
+          "optimality_gap": 0.1418625
+        },
+        "random": {
+          "energy": 17.6475,
+          "accuracy": 0.85,
+          "visits": 1.0,
+          "optimality_gap": 0.1418625
+        },
+        "entropy": {
+          "energy": 17.5321,
+          "accuracy": 0.941,
+          "visits": 3.0,
+          "optimality_gap": 0.2572625
+        },
+        "cost_sensitive": {
+          "energy": 17.7893625,
+          "accuracy": 0.913,
+          "visits": 1.675,
+          "optimality_gap": 0.0
+        }
+      }
+    },
+    "original": {
+      "fixed_sequence": [
+        0
+      ],
+      "random_count": 1,
+      "optimal_energy": 16.71,
+      "policies": {
+        "no_sensing": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.71
+        },
+        "fixed": {
+          "energy": 16.71,
+          "accuracy": 0.85,
+          "visits": 1.0,
+          "optimality_gap": 0.0
+        },
+        "random": {
+          "energy": 16.71,
+          "accuracy": 0.85,
+          "visits": 1.0,
+          "optimality_gap": 0.0
+        },
+        "entropy": {
+          "energy": 14.7196,
+          "accuracy": 0.941,
+          "visits": 3.0,
+          "optimality_gap": 1.9904
+        },
+        "cost_sensitive": {
+          "energy": 16.71,
+          "accuracy": 0.85,
+          "visits": 1.0,
+          "optimality_gap": 0.0
+        }
+      }
+    },
+    "high": {
+      "fixed_sequence": [],
+      "random_count": 0,
+      "optimal_energy": 16.0,
+      "policies": {
+        "no_sensing": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        },
+        "fixed": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        },
+        "random": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        },
+        "entropy": {
+          "energy": 10.9696,
+          "accuracy": 0.941,
+          "visits": 3.0,
+          "optimality_gap": 5.0304
+        },
+        "cost_sensitive": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        }
+      }
+    }
+  },
+  "uninformative": {
+    "low": {
+      "fixed_sequence": [],
+      "random_count": 0,
+      "optimal_energy": 16.0,
+      "policies": {
+        "no_sensing": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        },
+        "fixed": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        },
+        "random": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        },
+        "entropy": {
+          "energy": 15.0625,
+          "accuracy": 0.5,
+          "visits": 3.0,
+          "optimality_gap": 0.9375
+        },
+        "cost_sensitive": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        }
+      }
+    },
+    "original": {
+      "fixed_sequence": [],
+      "random_count": 0,
+      "optimal_energy": 16.0,
+      "policies": {
+        "no_sensing": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        },
+        "fixed": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        },
+        "random": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        },
+        "entropy": {
+          "energy": 12.25,
+          "accuracy": 0.5,
+          "visits": 3.0,
+          "optimality_gap": 3.75
+        },
+        "cost_sensitive": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        }
+      }
+    },
+    "high": {
+      "fixed_sequence": [],
+      "random_count": 0,
+      "optimal_energy": 16.0,
+      "policies": {
+        "no_sensing": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        },
+        "fixed": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        },
+        "random": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        },
+        "entropy": {
+          "energy": 8.5,
+          "accuracy": 0.5,
+          "visits": 3.0,
+          "optimality_gap": 7.5
+        },
+        "cost_sensitive": {
+          "energy": 16.0,
+          "accuracy": 0.5,
+          "visits": 0.0,
+          "optimality_gap": 0.0
+        }
+      }
+    }
+  }
+}

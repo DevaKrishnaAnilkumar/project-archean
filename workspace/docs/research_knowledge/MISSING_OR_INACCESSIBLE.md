@@ -1,0 +1,7 @@
+# Missing or inaccessible evidence
+
+- The uncapped v1.1 and v1.0 extinction configurations, exact values, original seeds, run logs and raw trajectories could not be recovered. The tracked source first shows the cap. The change between the original code commit and the final early snapshot updates documentation and the plot filename, with no recovered earlier runnable version. The README's numerical and causal descriptions remain historical recollections.
+- The exact trial geometry and controller cohort for the earlier informal v2 navigation comparison were unavailable. Recalled informal numbers cannot be attributed to the tracked first-hit arrays. Preserve them as retrieval leads only.
+- Untracked local notebooks, additional discarded runs and superseded configurations outside the recovered repository and supplied archives are unknown. Future uploads should be appended with source dates, checksums, provenance and scientific scope, and compared with existing items.
+- The literature queue and addendum preserve comparison leads. A primary-source literature audit was outside this evidence recovery. In particular, methods from the Sasaki–Tokoro comparison remain unavailable in the supplied synthesis.
+- Archive inspection covered all indexed experimental file paths and array schemas, with targeted raw payload checks and previously verified audits. It did not perform an independent semantic audit of every raw value . Later recovery could add material without changing the recorded evidence.

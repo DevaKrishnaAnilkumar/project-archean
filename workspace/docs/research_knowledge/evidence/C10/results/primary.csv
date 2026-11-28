@@ -1,0 +1,6 @@
+label,setting,arm_a,arm_b,metric,n,mean,sd,lo95,hi95
+"P1 recombination, no mutation",3,5,2,joint,20,0.11093402777777779,0.03323067215970319,0.09538159447201935,0.12648646108353623
+"P2 recombination, 2% mutation",0,5,2,joint,20,0.09905729166666667,0.03977313438421623,0.08044289178637802,0.11767169154695532
+"P3 pooled vs primary, stable",0,7,6,occupancy,20,0.0,0.0,0.0,0.0
+"P4 pooled vs primary, reversal",1,7,6,occupancy,20,0.0,0.0,0.0,0.0
+"P5 paired vs single, small founders",9,2,0,occupancy,20,-0.05317708333333333,0.15307014178414916,-0.12481611488105485,0.01846194821438818

@@ -1,0 +1,12 @@
+model.cpp: In function 'int main(int, char**)':
+model.cpp:115:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  115 |     if(!manifest) return 1; return 0;
+      |     ^~
+model.cpp:115:29: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  115 |     if(!manifest) return 1; return 0;
+      |                             ^~~~~~
+In file included from model.cpp:3:
+../c08_heritable_learning/model.cpp: In function 'int c08_original_main(int, char**)':
+../c08_heritable_learning/model.cpp:245:1: warning: control reaches end of non-void function [-Wreturn-type]
+  245 | }
+      | ^

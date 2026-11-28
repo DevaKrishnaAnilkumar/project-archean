@@ -1,0 +1,36 @@
+source,candidate,disposition,canonical_ids,detail_path
+C01,An archived result can be reconstructed across runtimes,retain and link; see proposed detail for new context,F-015;F-010,LEARNING_AND_INHERITANCE.md
+C02,Equal-cost active sensing showed no clear comparative gain,retain and link; see proposed detail for new context,F-016,SENSING_AND_MORTALITY.md
+C03,More entropy reduction with the same resource accuracy,retain and link; see proposed detail for new context,F-017,SENSING_AND_MORTALITY.md
+C04,Selective sensing earns energy at quarter cost,retain and link; see proposed detail for new context,F-018,SENSING_AND_MORTALITY.md
+C04,Higher accuracy and lower retained energy can coincide,retain and link; see proposed detail for new context,F-019,SENSING_AND_MORTALITY.md
+C05,Free sensing exposes myopic stopping failure,retain and link; see proposed detail for new context,F-020,SENSING_AND_MORTALITY.md
+C05,Simple fixed routines frequently tie or beat adaptation,retain and link; see proposed detail for new context,F-021,SENSING_AND_MORTALITY.md
+C06,Short-horizon safety and long-horizon persistence,correct attribution per CHAT-13; retain previous package,H-018;F-022,SENSING_AND_MORTALITY.md
+C06,Sensing can make a resource trip reward-dependent,retain and link; see proposed detail for new context,F-023,SENSING_AND_MORTALITY.md
+C06,Planning preserved completion while sometimes conserving energy,retain and link; see proposed detail for new context,F-024,SENSING_AND_MORTALITY.md
+C07,Learning stable sensory reliability supports lifetime persistence,retain and link; see proposed detail for new context,F-025,C07.md
+C07,Better decisions after reversal with slower measured belief recovery,retain and link; see proposed detail for new context,F-030,C07.md
+C07,Past sensor reliability offers little under unpredictable mappings,retain and link; see proposed detail for new context,F-029,C07.md
+C07,Accurate choices can coexist with shorter lives,retain and link; see proposed detail for new context,F-027;F-028;Q-049,C07.md
+C07,Uninformative sensing is a pure energy debit,retain and link; see proposed detail for new context,F-031;Q-049,C07.md
+C07,An early energy bottleneck limits learning opportunity,retain and link; see proposed detail for new context,Q-050,C07.md
+E01,Age under a population cap,retain and link; see proposed detail for new context,F-001;F-002,EARLY_MODEL.md
+E02,Variable navigation gains across lineages,retain and link; see proposed detail for new context,F-003;F-004,EARLY_MODEL.md
+E03,Local cues show a paired advantage with wide between-seed variation,retain and link; see proposed detail for new context,F-005;F-006,EARLY_MODEL.md
+E04,"Consistent cue dependence, uneven navigation",retain and link; see proposed detail for new context,F-005;F-006,EARLY_MODEL.md
+E05,Inherited memory helps or misleads at birth,retain and link; see proposed detail for new context,F-007,LEARNING_AND_INHERITANCE.md
+E05,"Responsive assistance, inherited signalling and withdrawal",retain and link; see proposed detail for new context,F-008,LEARNING_AND_INHERITANCE.md
+E05,Calibrated estimates of own action costs,retain and link; see proposed detail for new context,F-009,LEARNING_AND_INHERITANCE.md
+E06,Floating-point portability versus fresh-seed evidence,retain and link; see proposed detail for new context,F-010,LEARNING_AND_INHERITANCE.md
+E07,Learning under reversals and energy constraints,retain and link; see proposed detail for new context,F-011;F-012;F-013;F-014;F-015,LEARNING_AND_INHERITANCE.md
+C10,C10-B01,new permanent finding,F-046,C10.md
+C10,C10-B02,new permanent finding,F-047,C10.md
+C10,C10-B03,new permanent finding,F-048,C10.md
+C10,C10-B04,new permanent finding,F-049,C10.md
+C10,C10-B05,new permanent finding,F-050,C10.md
+C10,C10-B06,new permanent finding,F-051,C10.md
+C10,C10-B07,new permanent finding,F-052,C10.md
+C10,C10-B08,new permanent finding,F-053,C10.md
+C10,C10-B09,extend existing,Q-051;H-009,C10.md
+C10,C10-B10,extend existing,Q-052;M-016,C10.md

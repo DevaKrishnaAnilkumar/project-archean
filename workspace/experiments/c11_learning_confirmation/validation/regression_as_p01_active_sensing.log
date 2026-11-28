@@ -1,0 +1,12 @@
+test_bayes (test_model.ModelTests.test_bayes) ... ok
+test_control (test_model.ModelTests.test_control) ... ok
+test_gain (test_model.ModelTests.test_gain) ... ok
+test_policies_use_only_visible_history (test_model.ModelTests.test_policies_use_only_visible_history) ... ok
+test_replay (test_model.ModelTests.test_replay) ... ok
+test_checkpoint_required (test_runner.RunnerTests.test_checkpoint_required) ... ok
+test_smoke_reconstruction_and_no_overwrite (test_runner.RunnerTests.test_smoke_reconstruction_and_no_overwrite) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.061s
+
+OK

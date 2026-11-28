@@ -1,0 +1,17 @@
+test_choice_ties_exploration_and_greedy (test_model.SpatialLifetimeTests.test_choice_ties_exploration_and_greedy) ... ok
+test_death_on_arrival_prevents_reward (test_model.SpatialLifetimeTests.test_death_on_arrival_prevents_reward) ... ok
+test_death_on_return_retains_observation (test_model.SpatialLifetimeTests.test_death_on_return_retains_observation) ... ok
+test_energy_and_memory (test_model.SpatialLifetimeTests.test_energy_and_memory) ... ok
+test_frozen_and_blind (test_model.SpatialLifetimeTests.test_frozen_and_blind) ... ok
+test_no_reward_low_budget_and_denominators (test_model.SpatialLifetimeTests.test_no_reward_low_budget_and_denominators) ... ok
+test_pairing_and_conservation (test_model.SpatialLifetimeTests.test_pairing_and_conservation) ... ok
+test_schedule_balance_and_reproducibility (test_model.SpatialLifetimeTests.test_schedule_balance_and_reproducibility) ... ok
+test_contrasts (test_runner.RunnerTests.test_contrasts) ... ok
+test_interval (test_runner.RunnerTests.test_interval) ... ok
+test_research_requires_checkpoint (test_runner.RunnerTests.test_research_requires_checkpoint) ... ok
+test_smoke_output_and_no_overwrite (test_runner.RunnerTests.test_smoke_output_and_no_overwrite) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.279s
+
+OK

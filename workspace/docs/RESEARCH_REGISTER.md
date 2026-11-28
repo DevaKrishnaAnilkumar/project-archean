@@ -1,10 +1,12 @@
 # Project Archean — Living research register
 
-**Edition:** 1.0 · 26 November 2026
+**Edition:** 1.2 · 28 November 2026 (C11 closeout)
 **Evidence baseline:** [v2.3.1 publication checkpoint `4fa6bd7`](https://github.com/DevaKrishnaAnilkumar/project-archean/commit/4fa6bd7ecd3a59fe0d31e0d3dfa3f5239e09e740).
 **Purpose:** Preserve questions, inspirations, hypotheses, counterarguments, scoped findings and milestones as the research develops. This is an index of evidence and uncertainty, not a claim that the research programme is complete.
 
 [Research agenda and biological motivations](FUTURE_DIRECTIONS.md) · [Original research programme](RESEARCH.md) · [Project overview](../../README.md)
+
+[Experiment knowledge index](EXPERIMENT_KNOWLEDGE_INDEX.md) · [Research branches](RESEARCH_BRANCHES.md) · [Evidence catalogue](research_knowledge/EVIDENCE.md)
 
 ## 1. Status and maintenance rules
 
@@ -14,6 +16,7 @@ Scientific status (independent of implementation progress):
 | --- | --- |
 | VERIFIED WITHIN SCOPE | A specified result is supported by documented evidence under stated conditions. Not universal proof. |
 | EXPLORATORY EVIDENCE | A descriptive observation, pilot, post-hoc analysis or secondary outcome; confirm on fresh independent seeds where appropriate. |
+| ANALYTICAL FINDING | A derivation or exact model calculation scoped to its assumptions. |
 | HYPOTHESIS | A testable prediction not yet established by the required evidence. |
 | OPEN QUESTION | An unresolved question, doubt or competing explanation. |
 | PROPOSED EXPERIMENT | A candidate study or engineering research direction, not an approved protocol. |
@@ -71,10 +74,10 @@ These identifiers refer to the recorded research sources, not new experiments.
 | H-002 | Designed learners recover after unannounced contingency reversal. | EXPLORATORY EVIDENCE | F-012; predefine recovery endpoint and test independent seeds. |
 | H-003 | Genuine cues improve learning compared with uninformative cues. | EXPLORATORY EVIDENCE | F-013; confirm with fresh schedules and cue reliabilities. |
 | H-004 | Learning improves survival or net energy in energy-limited environments. | EXPLORATORY EVIDENCE | F-014; confirm with cognition costs and simpler matched strategies. |
-| H-005 | Self-maintenance and reproduction can select for heritable information-processing mechanisms without a task-specific intelligence score. | HYPOTHESIS | F-003/F-005/F-011 motivate but do not establish it; evolving vs non-evolving and drift controls, measure descendants and mechanism ablations. |
+| H-005 | Self-maintenance and reproduction can select for heritable information-processing mechanisms without a task-specific intelligence score. | HYPOTHESIS | F-003/F-005/F-011 motivate but do not establish it; evolving vs non-evolving and drift controls, measure descendants and mechanism ablations. [C11](research_knowledge/C11.md): C11-A fresh-seed confirmation and C11-B controlled results support this hypothesis within the supplied-model scope; no general or spontaneous intelligence claim. |
 | H-006 | Intermediate, learnable environmental variability can favour plasticity more than stable or unpredictable conditions. | HYPOTHESIS | E08 inspiration, F-012 motivation; factorial change frequency, predictability, cue reliability and cost, including counterexamples. No assumed optimum. |
 | H-007 | Cheap fixed strategies can outperform costly learning in some stable or unpredictable environments. | HYPOTHESIS | E08; compare evolved fixed, reactive and adaptive strategies with matched information and real costs. |
-| H-008 | Selection can favour a heritable capacity to learn, rather than only fixed behaviour or copied learned state. | HYPOTHESIS | F-011 establishes designed learning benefit only; allow zero/nonzero plasticity, compare selection vs drift. |
+| H-008 | Selection can favour a heritable capacity to learn, rather than only fixed behaviour or copied learned state. | HYPOTHESIS | F-011 establishes designed learning benefit only; allow zero/nonzero plasticity, compare selection vs drift. [C11](research_knowledge/C11.md): C11-B supports selection on a supplied learning capacity at fixed sensing and zero overhead, including without mutation; evolution of learning rules remains untested. |
 | H-009 | Selective transmission or forgetting can outperform indiscriminate copying when environmental correlations change. | HYPOTHESIS | F-007 motivation; evolve transfer/retention rules, include costs and blank/parent/unrelated controls. |
 | H-010 | Costly parental investment can increase viable descendants under some ecological conditions. | HYPOTHESIS | E08; energy-conserving reproduction and relatedness/beneficiary controls across generations. |
 | H-011 | Spatially dispersed, depleting or extractive resources can favour memory and planning over reactive locomotion. | HYPOTHESIS | E08; held-out maps, matched sensors and simple baselines; no direct planning score. |
@@ -120,7 +123,7 @@ All future rows are proposals (not verified findings or approved protocols). Com
 | M-002 | v2.0 navigation baseline | INTEGRATED | E02; F-003/F-004. |
 | M-003 | v2.1 local sensing and twenty-seed replication | INTEGRATED | E03/E04; F-005/F-006. |
 | M-004 | v2.2 inherited experience and portability audit | INTEGRATED | E05/E06; F-007–F-010. |
-| M-005 | v2.3.1 lifetime learning | PUBLISHED ON REVIEW BRANCH | E07, F-011–F-015; protocol committed, implemented, executed, audited and published at `4fa6bd7`; main integration pending at this baseline. |
+| M-005 | v2.3.1 lifetime learning | INTEGRATED | Results checkpoint `4fa6bd7` is an ancestor of public main merge `80a6739` (PR #2). E07 and F-011–F-015 retain their original evidence and scientific classifications. |
 | M-006 | v2.3.2 continuous spatial learning | PROPOSED | Q-002; matched controls, held-out maps, local/noisy sensing, energy/movement invariants. |
 | M-007 | v2.4 heritable plasticity and memory | PROPOSED | H-008/H-009/Q-005/Q-006; mutation and pedigree validation, selection vs drift, fixed/blank controls. |
 | M-008 | v2.5 life history and lineage persistence | PROPOSED | H-010/Q-007/Q-008/Q-018; energy-conserving reproduction, genealogy, viable descendants. |
@@ -147,6 +150,13 @@ All future rows are proposals (not verified findings or approved protocols). Com
 | 2026-11-26 | H-001–H-004, F-011–F-015, M-005 | Initial registration of completed study | [Locked pre-execution checkpoint](https://github.com/DevaKrishnaAnilkumar/project-archean/commit/091731949bb5ad5eac74c0257d05a98c8d1a4786) and [publication checkpoint](https://github.com/DevaKrishnaAnilkumar/project-archean/commit/4fa6bd7ecd3a59fe0d31e0d3dfa3f5239e09e740). H-001 primary supported; H-002–H-004 exploratory; audit is computational, not fresh-seed replication. |
 | 2026-11-26 | H-005–H-017, Q-001–Q-020, M-006–M-014 | Initial prospective registration | E08, original research programme and project discussions. No designated studies executed for these hypotheses; new protocols and review required. |
 | 2026-11-26 | Q-021–Q-047 | Initial prospective registration | Foundational handover consolidation; 27 distinct open questions, 9 linked refinements. No change to existing scientific statuses or milestone states. |
+
+| 2026-11-27 | M-005 | PUBLISHED ON REVIEW BRANCH → INTEGRATED | Ancestry verified from `4fa6bd7` to `80a6739`. The prior milestone row is preserved below. |
+| 2026-11-27 | F-016–F-031, H-018–H-019, Q-048–Q-050 | Initial registration | Scoped C02–C07 outcomes, analytical observations and hypotheses. See section 10. |
+
+Prior M-005 record, retained verbatim:
+
+> | M-005 | v2.3.1 lifetime learning | PUBLISHED ON REVIEW BRANCH | E07, F-011–F-015; protocol committed, implemented, executed, audited and published at `4fa6bd7`; main integration pending at this baseline. |
 
 For later changes, append a row with date, exact ID, previous and new status, evidence link/commit and reason. If an item is split or superseded, link the new IDs and preserve the original. Use experiment-specific reports for details, not ever-growing duplicated result tables.
 
@@ -183,3 +193,146 @@ For later changes, append a row with date, exact ID, previous and new status, ev
 | Q-045 | Can functional continuity after duplication or restoration be distinguished from structural similarity and subjective identity? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-033--q-045) |
 | Q-046 | What functional indicators and ethical review thresholds are appropriate as capabilities increase? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-034--q-046) |
 | Q-047 | What architecture is necessary, sufficient, advantageous or redundant for a specified capability? | OPEN QUESTION | [Details and sources](foundations/RESEARCH_QUESTIONS.md#c-035--q-047) |
+
+## 10. C02–C07 cumulative evidence
+
+The [evidence catalogue](research_knowledge/EVIDENCE.md) identifies the archived runs. The [relationship table](research_knowledge/relationships.csv) links their findings and predecessor records.
+
+| ID | Record | Scientific status | Evidence and related IDs |
+|---|---|---|---|
+| F-016 | **Matched-cost AS-P01 comparison.** With three compulsory visits and supplied likelihoods, both empirical entropy-gain intervals crossed zero. Resource accuracy was similar. This does not establish equivalence. | INCONCLUSIVE | [Evidence](research_knowledge/evidence/C02/AS_P01_RESULTS.md) · F-005, Q-004 |
+| F-017 | **Entropy reduction and patch accuracy diverge.** In the post-hoc AS-P01 tree, greedy and optimal entropy policies gave 0.752834 bits versus 0.745251 for fixed, with the same 94.10% choice accuracy as fixed. The model gives a scoped exact expectation. | ANALYTICAL FINDING | [Evidence](research_knowledge/evidence/C03/AS_P01_EXACT_REPORT.md) · F-016, Q-004 |
+| F-018 | **Cost-sensitive sensing under the AS-P02 schedule.** Cost-sensitive sensing averaged +0.1360 final energy versus best fixed at quarter cost, with exact expectation +0.1418625. The original and high cost comparisons tie in exact expectation. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C04/AS_P02_RESULTS.md) · F-017, H-007, Q-004 |
+| F-019 | **Compulsory information can reduce retained energy.** At original AS-P02 cost, compulsory sampling produced 94.49% accuracy and 14.74 expected final energy, while no sensing achieved 49.34% and retained 15.96. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C04/AS_P02_RESULTS.md) · F-017, H-007, Q-004 |
+| F-020 | **Myopic stopping misses jointly valuable free observations.** In C05 with three free visits and full reliability, cost-sensitive minus best fixed was −0.1568 in exact expected net energy. One-step decisions can stop when observations have value only jointly. The fresh-seed result supported the direction. | ANALYTICAL FINDING | [Evidence](research_knowledge/evidence/C05/C05_RESULTS.md) · F-018, H-011 |
+| F-021 | **Cost and reliability bound the advantage of optional sensing.** Across the 120 C05 grid settings the myopic policy beat best fixed in 3, tied in 109 and lost in 8. It matched the adaptive benchmark in 107. Grid counts describe the specified design. The fresh-seed quarter-cost comparison extends F-018. | ANALYTICAL FINDING | [Evidence](research_knowledge/evidence/C05/C05_RESULTS.md) · F-018, F-020, H-007 |
+| F-022 | **One-episode survival-first abstention at four units.** All C06 four-unit survival-first policies abstained with survival of one and zero acquisitions. The model does not charge maintenance after this terminal action. | ANALYTICAL FINDING | [Evidence](research_knowledge/evidence/C06/RESULTS.md) · F-021, H-012 |
+| F-023 | **Expensive sensing can make return survival reward-dependent.** With eight energy in C06 at the highest cost, immediate travel had 100% survival. Task-first compulsory entropy sampling gave 74.5% with full reliability or 50% with null cues. | ANALYTICAL FINDING | [Evidence](research_knowledge/evidence/C06/RESULTS.md) · F-019, F-021, H-012 |
+| F-024 | **Planning and fixed routines can tie on completion with different energy.** Under task-first priorities, adaptive planning tied the best fixed sequence on completion in all 108 exact settings, improved final energy in 14, and improved completion over myopic sensing in six. The 64-unit exact energy results agree with C05. | ANALYTICAL FINDING | [Evidence](research_knowledge/evidence/C06/RESULTS.md) · F-020, F-021, H-011 |
+| F-025 | **Adaptive lifetime sensing improves stable performance.** At 24 energy in the stable condition, adaptive learning added 5.7325 and 4.9694 periods alive versus adaptive frozen and fixed learning. At 512 energy it improved late accuracy by 11.3945 points versus adaptive frozen. The three paired intervals are exploratory and unadjusted. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C07/primary_contrasts.csv) · F-011, F-014, H-004 |
+| F-026 | **Fixed learners change confidence while matched actions coincide.** All 50 C07 seed archives show zero differences between P2 and P4 in sites, readings, actions, rewards, return steps and energy. Beliefs differ. One reading under equal resource priors and maximum-posterior choice leaves the action invariant to a positive estimate of sensor reliability. | ANALYTICAL FINDING | [Evidence](research_knowledge/C07.md#learning-changed-beliefs-without-changing-fixed-policy-behaviour) · F-017, F-025, Q-026 |
+| F-027 | **Costly lifetime sensing can shorten survival despite better choices.** At stable eight energy and 2.5 sensing cost, adaptive learners had 72.17% conditional accuracy against 49.73% for no sensing but averaged 3.555 versus 6.970 periods alive. See F-031 for the null control. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C07/condition_means.csv) · F-019, F-023, H-007 |
+| F-028 | **Full-trip energetic break-even bound.** Post-hoc full-trip accounting gives expected net 5.6a − 3.8 − c and 112.5% break-even accuracy at c=2.5. This applies when the full trip is charged or as a counterfactual charge to all attempts. Mortality can select successful rewards among completed trips. The bound gives neither a survival probability nor an unconditional expectation among observed survivors. | ANALYTICAL FINDING | [Evidence](research_knowledge/C07.md#accuracy-above-chance-can-be-insufficient-to-pay-for-sensing) · F-018, F-027, Q-004 |
+| F-029 | **Learning shows no clear survival advantage under unpredictable mappings.** At 24 energy the unpredictable P5−P3 estimate was −0.226 periods, with interval [−1.060,+0.609]. Independent redraws remove the predictive value of previous mappings. The interval does not establish equivalence. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C07/secondary_contrasts.csv) · F-012, F-025, H-002, H-006 |
+| F-030 | **Belief recovery and resource choice can rank policies differently.** After reversal at high energy, adaptive learners had higher overall choice accuracy but 8.03 versus 7.88 restricted mean periods to the recovery criterion for fixed learners. This descriptive comparison uses distinct outcomes and time windows. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C07/condition_means.csv) · F-012, F-025, H-002 |
+| F-031 | **Uninformative sensing spent energy with identical actions.** At q=0.50 and 512 units, all policies made identical paired choices and received identical rewards. Ordinary learned beliefs remained at 0.5. The five sensing groups spent 15 additional units over 48 periods versus no sensing. | VERIFIED WITHIN SCOPE | [Evidence](research_knowledge/evidence/C07/RESULTS.md) · F-019, F-027, H-003 |
+| H-018 | **Repeated safe abstention may deplete reserves.** Assistant-derived after C06 and selected by the researcher for follow-up. Recurring maintenance can make perennial waiting costly, while informed risk can support persistence. Access to better future opportunities and lethal acquisition risk are competing explanations. C07 imposes affordable attempts. | HYPOTHESIS | [Evidence](research_knowledge/SENSING_AND_MORTALITY.md#staying-safe-for-an-episode-versus-sustaining-reserves) · F-022, F-023, H-012 |
+| H-019 | **Episode-level energy savings may improve later opportunities.** With equal completion, reserves saved by selective planning may aid later maintenance, foraging or reproduction. Free planning, finite episodes and environmental persistence can explain different outcomes. | HYPOTHESIS | [Evidence](research_knowledge/DESIGN_GOVERNANCE.md#variability-and-lifetime-investment) · F-024, H-010, Q-007 |
+| Q-048 | **When can confidence alter action and survival?.** With sensor scheduling held fixed, would multiple readings, unequal rewards, or confidence-dependent abstention make the belief changes from C07 causally useful? | OPEN QUESTION | [Evidence](research_knowledge/C07.md#learning-changed-beliefs-without-changing-fixed-policy-behaviour) · F-026, Q-004, Q-026 |
+| Q-049 | **When is sensing optional and energetically worthwhile?** Can lifetime agents learn to stop buying information before spending reserves needed to return alive? Match learning opportunity and charge sensing and computation explicitly. | OPEN QUESTION | [Evidence](research_knowledge/DESIGN_GOVERNANCE.md#variability-and-lifetime-investment) · F-027, F-028, Q-004 |
+| Q-050 | **Does early mortality limit access to useful feedback?.** Separate initial reserve arithmetic and early reward luck from learner inefficiency, while retaining all deaths in the primary denominator. | OPEN QUESTION | [Evidence](research_knowledge/C07.md#early-mortality-and-access-to-feedback) · F-025, F-027, H-004 |
+
+## 11. Extensions to existing evidence
+
+| Existing IDs | Evidence extension |
+|---|---|
+| F-001, F-002, Q-009 | Preserve historical v1.0 and v1.1 descriptions as retrospective. Document v1.2 population cap, per-cell food gain, reset, tie ordering, division accounting and the survivor-age trace. [Details](research_knowledge/EARLY_MODEL.md) |
+| F-003, F-004, F-006, Q-047 | Add conditional first-contact timing, lineage concentration, residency as an alternative and the rationale for isolating cue effects before changing architecture. [Details](research_knowledge/EARLY_MODEL.md) |
+| F-007, F-008, H-009, Q-020 | Link persistent energetic effects of inherited memory, replay and help withdrawal. [Details](research_knowledge/LEARNING_AND_INHERITANCE.md) |
+| F-010, F-015 | Link C01 computational reconciliation as a separate archive audit. [Details](research_knowledge/EVIDENCE.md) |
+| H-002, H-004, H-006, H-007, Q-004 | Link tested conditions and alternative explanations for sensing cost, reversals and survival. [Details](research_knowledge/C07.md) |
+| Q-015, Q-016, Q-032 | Link the scoped comparative literature queue and governance refinements. [Details](research_knowledge/DESIGN_GOVERNANCE.md) |
+
+## 12. Required experiment documentation
+
+Before protocol authorisation, complete [PRIOR_EVIDENCE_REVIEW.md](research_knowledge/templates/PRIOR_EVIDENCE_REVIEW.md) with earlier findings, unresolved contradictions, controls and expected relationships. After execution, include [CROSS_EXPERIMENT_COMPARISON.md](research_knowledge/templates/CROSS_EXPERIMENT_COMPARISON.md), [RESEARCH_BRANCH_CANDIDATES.md](research_knowledge/templates/RESEARCH_BRANCH_CANDIDATES.md) and register update candidates. Record minor observations, negative findings, failures, surprises and conversation-derived hypotheses. Use the [cumulative workflow](research_knowledge/FUTURE_EXPERIMENT_WORKFLOW.md). Add newly recovered historical evidence through dated append-only updates.
+
+## 13. C08 reviewed evolutionary evidence
+
+27 November 2026 · Protocol lock `5092881`, implementation lock `a5031b0`. Research planning independently reconstructed all primary measures with zero discrepancy. Scientific effects remain exploratory. [Scoped results, limits and branch ancestry](research_knowledge/C08.md). Earlier register records and scientific statuses are retained.
+
+| ID | Record | Scientific status | Evidence and related IDs |
+|---|---|---|---|
+| F-032 | **Stable, cheap informative sensing enriches the heritable joint trait.** At reward 8 and zero overhead the active-minus-passive difference was +30.78 percentage points of possible population-slot occupancy. Both prespecified matched contrasts were positive. | VERIFIED WITHIN SCOPE | [Evidence](research_knowledge/evidence/C08/primary_contrasts.csv) · F-025, H-005, H-008 [C11](research_knowledge/C11.md): C11-A confirms all three prespecified directions and >5 pp adjusted lower bounds on 64 fresh blocks: +24.3713, +23.8839, +24.4990 pp. Original C08 estimates remain exploratory; magnitude not reproduced exactly. |
+| F-033 | **Sensing and mapping learning diverge under unpredictable mappings.** Cheap reward-8 sensing yielded small positive joint enrichment with near-half learning prevalence and poorer mapping calibration for L1 S1 than L0 S1. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C08/genotypes.csv) · F-029, H-006 [C11](research_knowledge/C11.md): C11-A replicates stable-minus-unpredictable joint occupancy enrichment; calibration and intermediate-variability claims remain exploratory/unresolved. |
+| F-034 | **Expensive sensing can favour simpler genotypes or coexist with extinction.** Stable reward-8 expensive worlds all went extinct despite accurate L1 S1 choices. At reward 12, unpredictable expensive worlds with overhead persisted with a majority of no-sensing organism-periods. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C08/conditions.csv) · F-021, F-023, F-027, F-028, H-007 [C11](research_knowledge/C11.md): C11-A replicates cheap-minus-expensive enrichment and 64/64 expensive-world extinctions; reward-12 observations remain exploratory. |
+| F-035 | **Null cues and unused learning overhead affect trait composition.** Null cues left beliefs at one half. Unused learning capacity was still charged where specified. Joint depletion was clearer with positive overhead. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C08/genotypes.csv) · F-031, Q-004 [C11](research_knowledge/C11.md): C11-B matched reward-8 null control: frozen/learner parity is a validation invariant, all 256 null worlds extinct. Positive-overhead observations are not replicated. |
+| F-036 | **Higher reward preserves founder lineages while reducing measured joint enrichment.** With stable cheap sensing, reward 12 preserved more founder lineages and near-cap abundance than reward 8. The cap was held fixed. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C08/conditions.csv) · F-001, H-005, Q-007, Q-041 [C11](research_knowledge/C11.md): C11-B cap saturation remains a competing explanation; no cap or reward manipulation in C11. |
+| F-037 | **Longer observed lifetimes can accompany fewer births per at-risk period.** In the zero-overhead free-sensing setting L1 S1 lived longer on average but produced fewer births per at-risk period than L0 S1. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C08/genotypes.csv) · F-025, Q-007 [C11](research_knowledge/C11.md): C11 supplementary demographic and right-censored longevity summaries do not replicate the original free-sensing comparison or establish causal mediation. |
+| F-038 | **Demographic occupancy limits conditional joint-trait enrichment.** The absolute active-minus-passive contrast is bounded by filled-slot fraction. Genotype share among living organisms has a different denominator. | ANALYTICAL FINDING | [Evidence](research_knowledge/C08.md#denominators-and-scope) · F-001, H-005, Q-009 [C11](research_knowledge/C11.md): C11 reports D, U and G separately; B-P2 uses living-frequency enrichment, which still depends on ecological duration. |
+
+## 14. C09 reviewed evidence and proposed reproductive branches
+
+27 November 2026 · Protocol `cc40e90`; implementation `12f1263`. C09 primary demographic reconstruction passed. Effects remain exploratory. [Evidence and scope](research_knowledge/C09.md). Two reproductive branches are registered as proposals, not findings.
+
+| ID | Record | Scientific or milestone status | Evidence and related IDs |
+|---|---|---|---|
+| F-039 | **Stable free retention enriches nonblank acquired-information receptivity.** At reward 8 and cheap sensing, +7.14 pp [3.25,11.03] slot occupancy versus passive; stable minus reversal +7.77 pp [4.06,11.49]; stable minus unpredictable +6.98 pp [3.13,10.82]. n=20 paired worlds, exploratory unadjusted intervals. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C09/primary.csv) · F-007, F-032, F-038, H-009 |
+| F-040 | **Early offspring accuracy and population abundance can diverge.** Full versus blank under reversal: +7.94 pp first-choice success (original birth cohorts), −7.73 mean organisms. Stable comparison +14.12 pp and +1.77 organisms. Exposure and costs may differ. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C09/RESULTS.md) · F-025, F-027, F-037 |
+| F-041 | **Donor source and environmental persistence change information quality.** Stable parent versus other surviving donor Brier 0.071 vs 0.136; unpredictable 0.372 vs 0.290. Reproductive filtering and survivor sampling confound ancestry; 18 donor fallbacks. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C09/RESULTS.md) · F-007, H-009, Q-006 |
+| F-042 | **Partial retention can moderate mismatch after reversal.** Reversal partial vs full newborn Brier 0.192 vs 0.208; blank 0.250. Under unpredictable mapping blank 0.250 vs partial 0.295/full 0.365. Descriptive, not a universal optimum. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C09/alleles.csv) · F-007, F-029, H-009, Q-006 |
+| F-043 | **Transfer can incur cost without transmitting useful information.** At q=0.50 beliefs stay 0.5 and free blank/full comparable action and energy trajectories match. Costly full transfer spent 7701 units across 20 worlds. This is a model/accounting check; fitness consequences exploratory. | VERIFIED WITHIN SCOPE | [Evidence](research_knowledge/evidence/C09/RESULTS.md) · F-031, F-035, Q-004 |
+| F-044 | **Extreme sensing expenditure can overwhelm inherited information.** All 80 extreme cost world-population runs extinct; only five seeds with births in fixed comparisons. Do not infer effect of inheritance from sparse cohorts. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C09/conditions.csv) · F-001, F-027, F-028, F-034 |
+| F-045 | **Apparent inherited-belief revision depends on exposure and censoring.** Free reward-8 reversal C: 1071/1237 contradictory newborn beliefs aligned within initial segment before censoring; observed alignments averaged 4.27 periods. Redraw can cause alignment without learning. | EXPLORATORY EVIDENCE | [Evidence](research_knowledge/evidence/C09/RESULTS.md) · F-030, Q-050 |
+| Q-051 | **When do recombination and dual-parent acquired information improve survival?.** Researcher-originated C10; isolate genetic recombination, mutation, pooling, conflicting evidence, mate constraints and energy costs. Neither mode assumed superior. | OPEN QUESTION | [Evidence](research_knowledge/evidence/C09/RESEARCH_BRANCH_CANDIDATES.md) · H-009, H-010, Q-006, Q-008, F-041 |
+| Q-052 | **Can reproductive mode itself evolve under survival and demographic pressure?.** Assistant extension explicitly requested for permanent preservation by researcher: fixed single-parent, fixed two-parent, or facultative switching, with costs and demographic controls. Distinct from C10. | OPEN QUESTION | [Evidence](research_knowledge/EVOLVABLE_REPRODUCTION.md) · Q-051, H-005, H-009, H-010, Q-007, Q-008, Q-018, Q-041 |
+| M-015 | **C10 controlled recombination and dual-parent information assay.** | AUDITED | [C10 reviewed evidence](research_knowledge/C10.md) · Q-051, F-046–F-053. Computational audit, not scientific replication. |
+| M-016 | **Evolution of reproductive strategy including facultative switching.** Separate branch, after controlled C10 comparisons and new authorisation. | PROPOSED | [Evidence](research_knowledge/EVOLVABLE_REPRODUCTION.md) · Q-052, M-015 |
+
+Append-only history, 2026-11-27: F-039–F-045, Q-051–Q-052, M-015–M-016 first registered after C09 review. No earlier row or scientific status changed.
+
+## 15. C10 reviewed recombination evidence
+
+28 November 2026. Protocol 2aadbcf; implementation cc34fb3.
+Computational audit passed. Scientific effects remain exploratory;
+no independent fresh-seed replication is claimed.
+See [C10 evidence and dispositions](research_knowledge/C10.md).
+
+| ID | Record | Scientific status | Evidence and related IDs |
+|---|---|---|---|
+| F-046 | Recombination generated the absent joint learning-and-sensing genotype without mutation in 20/20 worlds versus 0/20 clone worlds. Joint-slot occupancy difference +11.09 pp [9.54,12.65]; with 2% mutation +9.91 pp [8.04,11.77]. | EXPLORATORY EVIDENCE | [C10](research_knowledge/C10.md) · Q-051, H-015 |
+| F-047 | Joint-trait novelty also increased under null cues (+8.43 pp). Genotype novelty alone does not establish adaptive intelligence or selection for learning. | EXPLORATORY EVIDENCE | [C10](research_knowledge/C10.md) · F-032, F-038, H-005 |
+| F-048 | Standing variation and mutation may modify recombination effects. Balanced founders +1.05 pp with interval crossing zero; complementary founders +9.91 pp at 2% mutation and +5.98 pp at high mutation. Interaction not prospectively tested. | EXPLORATORY EVIDENCE | [C10](research_knowledge/C10.md) · Q-041, Q-051 |
+| F-049 | Pooled and one-parent memory had identical total population trajectories in 40 primary matched pairs, while genotype counts differed in 39. Abundance can conceal behavioural or compositional changes. | VERIFIED WITHIN SCOPE | [C10](research_knowledge/C10.md) · F-026, F-036, F-038, F-040 |
+| F-050 | Memory pooling under low reward improved slot occupancy by +4.45 pp [0.45,8.45], with four extinctions in each arm. High-reward stable first-choice difference +1.76 pp without an occupancy advantage. Secondary comparisons require confirmation. | EXPLORATORY EVIDENCE | [C10](research_knowledge/C10.md) · F-007, F-041, F-042, H-009 |
+| F-051 | Scarce-founder paired versus single-parent occupancy difference -5.32 pp [-12.48,1.85]. Both founder count and initial energy change; equal total birth cost does not isolate parental cost sharing or mate availability. | INCONCLUSIVE | [C10](research_knowledge/C10.md) · H-010, Q-041, Q-051 |
+| F-052 | All 160 highest-sensing-cost C10 worlds became extinct across the eight reproductive policies. This does not establish a universal survival threshold. | EXPLORATORY EVIDENCE | [C10](research_knowledge/C10.md) · F-027, F-028, F-034, F-044 |
+| F-053 | Complementary clone-only zero-mutation founders lacked the joint functional capacity. Beliefs stayed blank and memory interventions coincided. Component presence does not imply useful integrated processing. | VERIFIED WITHIN SCOPE | [C10](research_knowledge/C10.md) · F-026, Q-047 |
+
+## 16. Prospective plastic evolution and environmental challenges
+
+Researcher-originated discussion on 28 November 2026,
+with assistant-developed experimental formulations.
+These questions are not findings or approved protocols.
+
+| ID | Record | Scientific or milestone status | Evidence and related IDs |
+|---|---|---|---|
+| Q-053 | Can lifetime structural reorganisation of a neural controller improve survival after accounting for computation, maintenance and growth costs? Distinguish weight plasticity from adding or pruning connections and neurons. | OPEN QUESTION | [Proposal](research_knowledge/PLASTIC_EVOLUTION_AND_CHALLENGES.md) · Q-005, Q-047, H-015 |
+| Q-054 | Can heritable learning rules and learning-rate regulation evolve, rather than merely switching a supplied learning mechanism on or off? | OPEN QUESTION | [Proposal](research_knowledge/PLASTIC_EVOLUTION_AND_CHALLENGES.md) · H-008, H-015, Q-005, Q-032 |
+| Q-055 | Can heritable mutation and recombination modifiers coevolve with cognition and reproductive strategy under ecological selection? | OPEN QUESTION | [Proposal](research_knowledge/PLASTIC_EVOLUTION_AND_CHALLENGES.md) · Q-030, Q-051, Q-052 |
+| Q-056 | Do constant, gradual and exponentially increasing environmental pressures favour different adaptive mechanisms, extinction risks or complexity trajectories? | OPEN QUESTION | [Proposal](research_knowledge/PLASTIC_EVOLUTION_AND_CHALLENGES.md) · Q-003, Q-010, H-006, H-007 |
+| Q-057 | Can a predefined population-performance feedback rule generate sustained new challenges without researcher rescue or selecting desired winners? | OPEN QUESTION | [Proposal](research_knowledge/PLASTIC_EVOLUTION_AND_CHALLENGES.md) · Q-010, Q-019, M-012 |
+| Q-058 | How do survival-only selection and explicitly guided cognitive capability objectives differ in generalisation, viability, complexity and computational cost? | OPEN QUESTION | [Proposal](research_knowledge/PLASTIC_EVOLUTION_AND_CHALLENGES.md) · H-005, H-016, Q-016 |
+| M-017 | Controlled plastic neural controllers and evolution of learning rules; staged extension of M-010. | PROPOSED | Q-053, Q-054, Q-055; bounded mechanisms, cost controls, fresh protocols |
+| M-018 | Constant, progressive, exponential and adaptive environmental challenge comparisons. | PROPOSED | Q-056, Q-057; feasibility and independent-world controls |
+| M-019 | Natural versus guided intelligence evolution. | PROPOSED | Q-058; explicitly separate objective functions and matched evaluation |
+
+
+### Status history — 28 November 2026
+
+- M-015: PROPOSED → AUDITED; C10 implementation `cc34fb3`, review and computational audit.
+- F-046–F-053, Q-053–Q-058, M-017–M-019: initial registration.
+- Q-052/M-016 remain separate and proposed.
+- Earlier scientific statuses remain unchanged.
+
+Prior M-015 row retained verbatim:
+
+> | M-015 | **C10 controlled recombination and dual-parent information assay.** Prerequisite to separate evolvable reproductive-strategy investigation; new prospective protocol required. | PROPOSED | [Evidence](research_knowledge/evidence/C09/RESEARCH_BRANCH_CANDIDATES.md) · Q-051, F-039, F-041, F-042 |
+
+## 17. C11 — Confirmed learning selection and controlled mechanism investigation
+
+28 November 2026. Researcher approved prospective design and execution; assistant proposed controls, implemented and computationally reviewed. No external peer review.
+
+| ID | Record | Scientific or milestone status | Evidence and related IDs |
+|---|---|---|---|
+| F-054 | Supplied lifetime learning improves population viability under stable informative cues at fixed S=1 and zero learner overhead: +82.0581 pp [81.4525,82.6637] adjusted 97.5% interval. | VERIFIED WITHIN SCOPE | [C11](research_knowledge/C11.md) · H-005, H-008, F-025, F-038 · B-P1; new controlled evidence, not independently replicated. Population intervention, not individual selection coefficient. |
+| F-055 | Selection favours supplied learning from standing heritable variation without mutation: informative-minus-null living-frequency enrichment +42.4144 pp [40.4140,44.4147] adjusted 97.5% interval. | VERIFIED WITHIN SCOPE | [C11](research_knowledge/C11.md) · H-005, H-008, F-032, F-035, F-038 · B-P2; informative G +42.4589 pp, null G +0.0445 pp. All null worlds extinct; duration and conditional replay limitations. |
+| F-056 | Learning-locus mutation effect on informative mixed-population enrichment is uncertain: -1.0157 pp [-2.1274,+0.0959] ordinary 95% interval. | INCONCLUSIVE | [C11](research_knowledge/C11.md) · F-055, Q-055 · B4 minus B3; prespecified secondary descriptive contrast, not equivalence. |
+| M-020 | C11 targeted fresh-seed confirmation and controlled learning mechanism investigation. | AUDITED | [C11](research_knowledge/C11.md) · F-032, F-054, F-055, F-056, H-005, H-008 · Protocol f3432bd; implementation 3dddc5e; same-workspace scientific acceptance and ledger reconstruction. |
+
+### Status history — C11 closeout, 28 November 2026
+
+- F-032: EXPLORATORY EVIDENCE → VERIFIED WITHIN SCOPE for the three targeted replication contrasts; original C08 estimates and scope preserved.
+- F-033–F-038 and H-005/H-008: evidence/limitations extended; status unchanged.
+- F-054–F-056 and M-020: initial registration. M-020 AUDITED; scientific acceptance within scope.
+- No change to M-014 or M-016–M-019. No new experiment authorised.

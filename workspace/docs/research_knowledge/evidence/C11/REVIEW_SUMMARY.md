@@ -1,0 +1,31 @@
+# Project Archean — C11 scientific review candidate (28 November 2026)
+
+Status: executed and computationally audited, awaiting separate scientific acceptance and permanent knowledge integration. No public push or modification of the Mac repository. C10 master register remains 149 IDs, 60 relationships, 57 integrated evidence entries. No new IDs assigned.
+
+Protocol lock f3432bd4b3b3ab4d9c24d70daf218b431375c8db (tree 30dd4d9ee0c2b5382929932c414280c74039b97e). Validated implementation lock 3dddc5eff1927ac934de53bf93e7cd33dfbafd8c (tree 928197dd65259c4990e810759c59e54b0430649b). C08 model SHA-256 unchanged ff18f4789508ef3acafd64ff825dfaf9bb57a15858a67563bb800bb316402431. Environment Linux x86_64, Python 3.13.5, GCC 14.2.0, NumPy 2.3.5, SciPy 1.17.0, Matplotlib 3.10.8.
+
+## Governance and validation
+Both historical reports were checked for collisions; no detected overlap with 132 designated smoke/evaluation labels. Archive SHA-256 matched according to Mac report; earlier unseeded runs and some unscanned binary metadata remain unknown. Assistant accepted recoverable-scope seed freshness under existing conditional authorisation, rather than requesting a separate explicit waiver of irrecoverable history. Fixture seeds 3870–3877 allocated before lock. Original C08 smoke 3590–3591 rerun solely for technical equivalence. 45 historical tests, eight fixtures, 22 smoke worlds and 72/72 byte-equivalent raw C08 driver files passed. One pre-evaluation audit variable shadowing failure was repaired and same original fixture re-audited; no model change or evaluation access before lock. Compiler warned about renamed original main implicit return (never invoked) and misleading indentation in new main; no compile error. Locked analysis script syntax-checked pre-evaluation; actual analysis executed with evaluation. Same one-worker sequential run, 2 GiB address-space and 900 s watchdog per study, 6.11 s A (185324 KiB peak RSS), 13.30 s B (217084 KiB peak RSS), including simulation, audit and analysis. No outcome-dependent changes to study B after A. Original source preserved.
+
+## Primary results
+All five adjusted lower bounds exceeded .05; all 64 paired seed contrasts positive in each primary. Families separate, A 98.333% and B 97.5% intervals. Values in percentage points.
+
+| Contrast | Mean | Adjusted CI | Historical comparison |
+|---|---:|---|---|
+| A-P1 | 24.3713 | [20.8287,27.9139] | C08 30.78 |
+| A-P2 | 23.8839 | [20.3667,27.4011] | C08 30.10 |
+| A-P3 | 24.4990 | [20.9669,28.0311] | C08 30.87 |
+| B-P1 | 82.0581 | [81.4525,82.6637] | new population intervention |
+| B-P2 | 42.4144 | [40.4140,44.4147] | new living-frequency contrast |
+
+A replicated direction and practical effect, not original magnitude or all 40 settings. B-P1 learning-only U 95.359%, frozen-only 13.301%, both fixed S=1 and zero mutation; frozen-only 49/64 extinct, learning-only 0/64. B-P2 zero-mutation mixed informative G 42.4589 pp, null G 0.04455 pp; secondary ordinary 95% intervals [41.2162,43.7016] and [-1.1790,1.2681] respectively. Informative G point estimate positive as required. All 256 B null-cue worlds extinct; null B1/B2 demographic and discrete action parity exact, belief tolerance 1e-12. Mutation comparison B4-B3 informative G -1.01575 pp, descriptive ordinary CI [-2.12745,0.09591]; null -0.00990 pp, CI [-0.17391,0.15412]; no reliable mutation advantage shown. A extinction counts A1 0, A2 61, A3 64. All 430 extinct evaluation worlds retained. 704 active worlds, 3584 conditional replays, 6,482,121 actions, 140,534 births, 153,799 deaths. Separate post-run event-integral reconstruction independently verified 7,390 numeric values including all primary seed contrasts and confidence intervals, within absolute tolerance 1e-12.
+
+## Limitations / candidate register dispositions
+- F-032–F-034: fresh-seed direction confirmation for three targeted original contrasts; smaller estimates, no equivalence or pooling. Update existing findings with precise scope rather than overwrite history.
+- H-005/H-008: new prospective controlled evidence that supplied Bayesian learning can improve viability and be selected from standing heritable variation in this stable informative environment with zero learning overhead. Candidate distinct findings to assign IDs only after scientific acceptance. No evolved algorithm, general intelligence, neural emergence, or consciousness demonstrated.
+- F-035: matched low-reward null cue control, no informative advantage, universal extinction and deterministic parity. Null populations have short lives; B-P2 contrasts both usefulness and ecological duration/opportunity. G normalises occupancy but does not equalise selection time or demographic history. A conditional replay does not measure survival counterfactual. B-P1 independently surviving populations establish intervention effect in model, not individual causal selection coefficient.
+- F-038/Q-041: report U,F,O,G,D separately; demographic accounting available; cap saturation and founder composition can influence results. B2/B3/B4 informative all have final population 120, so long-run ceiling effects matter. Full causal mediation, capacity manipulation and matched viable-null condition remain open. Learning overhead zero, no resource depletion, one supplied algorithm, one reward, one informative accuracy, fixed S; cannot extrapolate to all environments.
+- Secondary mutation contrasts inconclusive; all negative/null/extinct outcomes preserved. Descriptive summaries, curves, raw ledgers and accounting arrays included. Additional granular longevity, death-stage and stage-specific frequency summaries can be derived from retained data; not fully tabulated or scientifically reviewed in this package. No new mechanism experiment or application changes authorised.
+
+## Next gate
+Independent scientific review of C11 exact protocol and implementation checkpoints, primary reconstruction and limitations. Only after acceptance integrate genuinely distinct findings, update earlier records without losing original evidence, add relationships, create documentation-only closeout and new verified bundle. Preserve M-016–M-019, M-014 and all unresolved branches. No C12 authorisation. Raw packages contain technical and evaluation evidence, not private master archive. Keep private seed reports private.

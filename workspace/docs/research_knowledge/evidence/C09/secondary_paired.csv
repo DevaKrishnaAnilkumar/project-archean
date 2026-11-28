@@ -1,0 +1,211 @@
+setting,contrast,metric,n,mean,sd,lo95,hi95
+0,B full parent minus A blank,abundance,20,1.7743749999999991,0.6952918039333964,1.4489684190947671,2.099781580905231
+0,B full parent minus A blank,persistence,20,0.0,0.0,0.0,0.0
+0,B full parent minus A blank,births,20,-140.65,42.759147990133116,-160.6618972655442,-120.6381027344558
+0,B full parent minus A blank,first_choice,20,0.14123766160897186,0.028194372425959804,0.12804228913370652,0.1544330340842372
+0,B full parent minus A blank,child_brier,20,-0.17496750644808323,0.008606994535076153,-0.1789957038864604,-0.17093930900970605
+0,B full parent minus A blank,donor_brier,20,0.007204914208475253,0.007873853503726665,0.003519837334705843,0.010889991082244664
+0,B full parent minus A blank,transfer,20,0.0,0.0,0.0,0.0
+0,C evolving parent minus D evolving other survivor,abundance,20,0.5370833333333322,0.6288709075963448,0.24276268880104118,0.8314039778656233
+0,C evolving parent minus D evolving other survivor,persistence,20,0.0,0.0,0.0,0.0
+0,C evolving parent minus D evolving other survivor,births,20,-51.55,31.003352959588774,-66.0600158323516,-37.0399841676484
+0,C evolving parent minus D evolving other survivor,first_choice,20,0.027989808400671397,0.026462169974172355,0.015605131627675267,0.040374485173667526
+0,C evolving parent minus D evolving other survivor,child_brier,20,-0.041785508981388934,0.00999030080125772,-0.046461113680827455,-0.037109904281950414
+0,C evolving parent minus D evolving other survivor,donor_brier,20,-0.0651111208018792,0.010495343026968843,-0.07002309253879996,-0.06019914906495843
+0,C evolving parent minus D evolving other survivor,transfer,20,0.0,0.0,0.0,0.0
+1,B full parent minus A blank,abundance,20,1.2462500000000012,0.6686864961377332,0.9332950864303264,1.559204913569676
+1,B full parent minus A blank,persistence,20,0.0,0.0,0.0,0.0
+1,B full parent minus A blank,births,20,-138.9,31.772049947945387,-153.76977709707268,-124.03022290292733
+1,B full parent minus A blank,first_choice,20,0.150093460399247,0.029436519575681875,0.13631674516302061,0.1638701756354734
+1,B full parent minus A blank,child_brier,20,-0.17803389881520348,0.008565425581322615,-0.18204264138436427,-0.1740251562460427
+1,B full parent minus A blank,donor_brier,20,0.004138521841355027,0.00791759591645433,0.0004329728882575849,0.00784407079445247
+1,B full parent minus A blank,transfer,20,4985.6,412.3369087479188,4792.620386408084,5178.579613591916
+1,C evolving parent minus D evolving other survivor,abundance,20,0.597291666666667,0.5831269606750162,0.32437984829998084,0.8702034850333531
+1,C evolving parent minus D evolving other survivor,persistence,20,0.0,0.0,0.0,0.0
+1,C evolving parent minus D evolving other survivor,births,20,-39.55,21.799263628316485,-49.75236942735738,-29.347630572642615
+1,C evolving parent minus D evolving other survivor,first_choice,20,0.02709083539885323,0.02768170653350473,0.014135397946936032,0.04004627285077043
+1,C evolving parent minus D evolving other survivor,child_brier,20,-0.041142021012008846,0.00905905326767972,-0.04538178844979157,-0.03690225357422612
+1,C evolving parent minus D evolving other survivor,donor_brier,20,-0.06313724586996806,0.012061842780363461,-0.06878236205912786,-0.057492129680808274
+1,C evolving parent minus D evolving other survivor,transfer,20,-134.4,304.29459410249143,-276.81425383510253,8.014253835102522
+2,B full parent minus A blank,abundance,20,0.0,0.0,0.0,0.0
+2,B full parent minus A blank,persistence,20,0.0,0.0,0.0,0.0
+2,B full parent minus A blank,births,20,-3.95,5.114221657094532,-6.343529413135494,-1.5564705868645068
+2,B full parent minus A blank,first_choice,20,0.10394399318691032,0.03337161129658483,0.08832559833472489,0.11956238803909575
+2,B full parent minus A blank,child_brier,20,-0.08835333150184696,0.030974165783297435,-0.10284968731521155,-0.07385697568848237
+2,B full parent minus A blank,donor_brier,20,-0.00582168687051298,0.01748904026428217,-0.01400680966862258,0.0023634359275966207
+2,B full parent minus A blank,transfer,20,0.0,0.0,0.0,0.0
+2,C evolving parent minus D evolving other survivor,abundance,20,0.0,0.0,0.0,0.0
+2,C evolving parent minus D evolving other survivor,persistence,20,0.0,0.0,0.0,0.0
+2,C evolving parent minus D evolving other survivor,births,20,0.05,3.6342667399135835,-1.6508891910455599,1.75088919104556
+2,C evolving parent minus D evolving other survivor,first_choice,20,0.028290763115418636,0.047374754903270755,0.006118695320163216,0.05046283091067406
+2,C evolving parent minus D evolving other survivor,child_brier,20,-0.014500364063393709,0.020135205668543252,-0.023923930392462572,-0.005076797734324847
+2,C evolving parent minus D evolving other survivor,donor_brier,20,-0.032843425788141936,0.03317710034488307,-0.04837078671272486,-0.017316064863559015
+2,C evolving parent minus D evolving other survivor,transfer,20,0.0,0.0,0.0,0.0
+3,B full parent minus A blank,abundance,20,0.0,0.0,0.0,0.0
+3,B full parent minus A blank,persistence,20,0.0,0.0,0.0,0.0
+3,B full parent minus A blank,births,20,-3.75,5.398586559656635,-6.276616284214226,-1.2233837157857743
+3,B full parent minus A blank,first_choice,20,0.09790473413502303,0.03927274615078373,0.07952452315685676,0.11628494511318929
+3,B full parent minus A blank,child_brier,20,-0.08406676080697191,0.029353744572280332,-0.09780473614911508,-0.07032878546482874
+3,B full parent minus A blank,donor_brier,20,-0.0015351161756379356,0.019446146416067494,-0.010636192847672482,0.00756596049639661
+3,B full parent minus A blank,transfer,20,1278.4,67.46414252264525,1246.8258093827608,1309.9741906172394
+3,C evolving parent minus D evolving other survivor,abundance,20,0.0,0.0,0.0,0.0
+3,C evolving parent minus D evolving other survivor,persistence,20,0.0,0.0,0.0,0.0
+3,C evolving parent minus D evolving other survivor,births,20,0.15,3.787444632216458,-1.6225786513880598,1.9225786513880596
+3,C evolving parent minus D evolving other survivor,first_choice,20,0.03209859254932063,0.049140543181728044,0.009100110401063052,0.05509707469757821
+3,C evolving parent minus D evolving other survivor,child_brier,20,-0.01266774424364393,0.01853307081238881,-0.021341488379007983,-0.003994000108279876
+3,C evolving parent minus D evolving other survivor,donor_brier,20,-0.033266216379932934,0.028423642881009396,-0.04656889073112751,-0.019963542028738356
+3,C evolving parent minus D evolving other survivor,transfer,20,-3.2,62.206447457342854,-32.31351358212466,25.91351358212466
+4,B full parent minus A blank,abundance,20,-7.734791666666668,10.260958454838184,-12.537068047188153,-2.9325152861451835
+4,B full parent minus A blank,persistence,20,0.0,0.0,0.0,0.0
+4,B full parent minus A blank,births,20,-70.25,80.62249588114513,-107.98248955375676,-32.517510446243236
+4,B full parent minus A blank,first_choice,20,0.0793992562442081,0.029146713854447334,0.06575817426058184,0.09304033822783436
+4,B full parent minus A blank,child_brier,20,-0.044748560661613646,0.02177013774319702,-0.05493729875513544,-0.03455982256809185
+4,B full parent minus A blank,donor_brier,20,0.02588092161938445,0.021492333668500768,0.01582219983498214,0.03593964340378676
+4,B full parent minus A blank,transfer,20,0.0,0.0,0.0,0.0
+4,C evolving parent minus D evolving other survivor,abundance,20,-6.677291666666667,8.614888605931998,-10.709183643929656,-2.6453996894036793
+4,C evolving parent minus D evolving other survivor,persistence,20,0.0,0.0,0.0,0.0
+4,C evolving parent minus D evolving other survivor,births,20,-52.3,64.60495337046534,-82.53604890334489,-22.063951096655106
+4,C evolving parent minus D evolving other survivor,first_choice,20,0.005449953157406484,0.028267529614025694,-0.007779657935806731,0.0186795642506197
+4,C evolving parent minus D evolving other survivor,child_brier,20,-0.0024494598129994995,0.009455169004348635,-0.006874615122152181,0.0019756954961531823
+4,C evolving parent minus D evolving other survivor,donor_brier,20,-0.0013217561137974176,0.012538502721518706,-0.007189956022380246,0.00454644379478541
+4,C evolving parent minus D evolving other survivor,transfer,20,0.0,0.0,0.0,0.0
+5,B full parent minus A blank,abundance,20,-14.585624999999997,10.20899169690478,-19.363580189153808,-9.807669810846185
+5,B full parent minus A blank,persistence,20,-0.05,0.22360679774997894,-0.15465120272,0.05465120271999997
+5,B full parent minus A blank,births,20,-123.1,76.32334263892632,-158.82042390099943,-87.37957609900056
+5,B full parent minus A blank,first_choice,20,0.08109111858100593,0.03631609642811445,0.06409466226778085,0.098087574894231
+5,B full parent minus A blank,child_brier,20,-0.04367316715984689,0.021797677321917557,-0.05387479417295658,-0.0334715401467372
+5,B full parent minus A blank,donor_brier,20,0.0269563151211512,0.019860193388232694,0.017661458501209565,0.03625117174109284
+5,B full parent minus A blank,transfer,20,4599.2,579.99724137275,4327.752935354819,4870.647064645181
+5,C evolving parent minus D evolving other survivor,abundance,20,-3.973958333333333,7.413973105770264,-7.443804555629876,-0.5041121110367897
+5,C evolving parent minus D evolving other survivor,persistence,20,0.0,0.0,0.0,0.0
+5,C evolving parent minus D evolving other survivor,births,20,-34.9,51.763531157512205,-59.12607830878592,-10.67392169121408
+5,C evolving parent minus D evolving other survivor,first_choice,20,0.014057528111312773,0.02821889664046634,0.0008506779503522823,0.027264378272273265
+5,C evolving parent minus D evolving other survivor,child_brier,20,-0.009234766708304509,0.016022193754335598,-0.01673338420775506,-0.0017361492088539586
+5,C evolving parent minus D evolving other survivor,donor_brier,20,-0.009859068917580026,0.01831067351705289,-0.018428727914778457,-0.0012894099203815956
+5,C evolving parent minus D evolving other survivor,transfer,20,-322.4,571.5447581128847,-589.8911807095564,-54.9088192904436
+6,B full parent minus A blank,abundance,20,0.0,0.0,0.0,0.0
+6,B full parent minus A blank,persistence,20,0.0,0.0,0.0,0.0
+6,B full parent minus A blank,births,20,-3.75,5.379052939534597,-6.267474268587614,-1.2325257314123856
+6,B full parent minus A blank,first_choice,20,0.10016927418853765,0.03746956049538908,0.08263298007454248,0.11770556830253281
+6,B full parent minus A blank,child_brier,20,-0.08383938145073769,0.031813137287719936,-0.09872838801474623,-0.06895037488672914
+6,B full parent minus A blank,donor_brier,20,-0.004822652700869353,0.017631085303260047,-0.013074254623580816,0.0034289492218421086
+6,B full parent minus A blank,transfer,20,0.0,0.0,0.0,0.0
+6,C evolving parent minus D evolving other survivor,abundance,20,0.0,0.0,0.0,0.0
+6,C evolving parent minus D evolving other survivor,persistence,20,0.0,0.0,0.0,0.0
+6,C evolving parent minus D evolving other survivor,births,20,0.35,4.068815940527998,-1.5542644772305585,2.2542644772305587
+6,C evolving parent minus D evolving other survivor,first_choice,20,0.029707147931652866,0.04886882232856959,0.006835835057197651,0.05257846080610808
+6,C evolving parent minus D evolving other survivor,child_brier,20,-0.013985312847840523,0.02077093497522467,-0.023706409651018456,-0.004264216044662591
+6,C evolving parent minus D evolving other survivor,donor_brier,20,-0.031331245553591264,0.03419981543294797,-0.04733725187304967,-0.015325239234132853
+6,C evolving parent minus D evolving other survivor,transfer,20,0.0,0.0,0.0,0.0
+7,B full parent minus A blank,abundance,20,0.0,0.0,0.0,0.0
+7,B full parent minus A blank,persistence,20,0.0,0.0,0.0,0.0
+7,B full parent minus A blank,births,20,-3.8,5.0220566137369405,-6.150394845075995,-1.4496051549240048
+7,B full parent minus A blank,first_choice,20,0.09600443565867608,0.04114106387766804,0.07674982506856172,0.11525904624879045
+7,B full parent minus A blank,child_brier,20,-0.08307387465331692,0.027642503513510955,-0.09601096452710194,-0.0701367847795319
+7,B full parent minus A blank,donor_brier,20,-0.004057145903448581,0.018792595855102682,-0.01285235149762899,0.004738059690731827
+7,B full parent minus A blank,transfer,20,1277.6,69.89194667861466,1244.8895620618052,1310.3104379381946
+7,C evolving parent minus D evolving other survivor,abundance,20,0.0,0.0,0.0,0.0
+7,C evolving parent minus D evolving other survivor,persistence,20,0.0,0.0,0.0,0.0
+7,C evolving parent minus D evolving other survivor,births,20,-0.05,4.394673809822163,-2.1067706545049214,2.0067706545049218
+7,C evolving parent minus D evolving other survivor,first_choice,20,0.03422564416860055,0.054789781102758124,0.008583237288017673,0.05986805104918343
+7,C evolving parent minus D evolving other survivor,child_brier,20,-0.011972812574468309,0.018528370826081834,-0.02064435704853073,-0.003301268100405888
+7,C evolving parent minus D evolving other survivor,donor_brier,20,-0.03364480080166963,0.030059408910561254,-0.04771303722022375,-0.01957656438311551
+7,C evolving parent minus D evolving other survivor,transfer,20,-6.0,64.93397456364102,-36.39003556176797,24.390035561767966
+8,B full parent minus A blank,abundance,20,-0.889375,1.5992393996926286,-1.6378420783675232,-0.140907921632477
+8,B full parent minus A blank,persistence,20,-0.1,0.718184846459608,-0.4361208546142402,0.23612085461424023
+8,B full parent minus A blank,births,20,-6.25,10.891208429399907,-11.347242448260989,-1.152757551739012
+8,B full parent minus A blank,first_choice,20,-0.02003725579594538,0.07373574822309081,-0.05454664823236688,0.014472136640476117
+8,B full parent minus A blank,child_brier,20,0.12782164270468316,0.05081042302925018,0.10404163273079803,0.1516016526785683
+8,B full parent minus A blank,donor_brier,20,0.0071458505247359305,0.037576017606604215,-0.010440267050973576,0.024731968100445437
+8,B full parent minus A blank,transfer,20,0.0,0.0,0.0,0.0
+8,C evolving parent minus D evolving other survivor,abundance,20,0.15854166666666664,1.887783166378023,-0.7249680513917529,1.042051384725086
+8,C evolving parent minus D evolving other survivor,persistence,20,0.05,0.39403446282620613,-0.13441380522786667,0.2344138052278667
+8,C evolving parent minus D evolving other survivor,births,20,1.35,11.586175973297253,-4.072497270797923,6.772497270797922
+8,C evolving parent minus D evolving other survivor,first_choice,20,0.01953974218623561,0.06497697190067102,-0.010870416748700016,0.04994990112117123
+8,C evolving parent minus D evolving other survivor,child_brier,20,0.03824457804102307,0.03165980055382038,0.023427335277512604,0.05306182080453353
+8,C evolving parent minus D evolving other survivor,donor_brier,20,0.08385317403106833,0.05505227725613571,0.05808791516907542,0.10961843289306125
+8,C evolving parent minus D evolving other survivor,transfer,20,0.0,0.0,0.0,0.0
+9,B full parent minus A blank,abundance,20,-2.01375,2.124828037417732,-3.0082001326725147,-1.0192998673274851
+9,B full parent minus A blank,persistence,20,-0.25,0.4442616583193193,-0.45792085631262,-0.04207914368738003
+9,B full parent minus A blank,births,20,-13.45,13.276314485420624,-19.663506443313647,-7.2364935566863515
+9,B full parent minus A blank,first_choice,20,-0.02928069837628025,0.05734348199534612,-0.05611827406427697,-0.00244312268828353
+9,B full parent minus A blank,child_brier,20,0.12237449140115593,0.03848890048886694,0.10436113148517502,0.14038785131713682
+9,B full parent minus A blank,donor_brier,20,0.0016986992212086826,0.04248014434651353,-0.01818262031967843,0.021580018762095792
+9,B full parent minus A blank,transfer,20,1275.2,265.20808116607134,1151.078797315788,1399.321202684212
+9,C evolving parent minus D evolving other survivor,abundance,20,0.2397916666666667,2.0484458142749267,-0.7189104851807762,1.1984938185141096
+9,C evolving parent minus D evolving other survivor,persistence,20,0.1,0.30779350562554625,-0.04405179483467436,0.24405179483467437
+9,C evolving parent minus D evolving other survivor,births,20,1.4,14.184498581197717,-5.238549683817087,8.038549683817088
+9,C evolving parent minus D evolving other survivor,first_choice,20,-0.0009103180046708403,0.05482795666626022,-0.026570591598945828,0.024749955589604147
+9,C evolving parent minus D evolving other survivor,child_brier,20,0.0331160315848479,0.02825553972358991,0.019892031933090006,0.0463400312366058
+9,C evolving parent minus D evolving other survivor,donor_brier,20,0.07605849905883497,0.050655663711880655,0.05235091867500619,0.09976607944266375
+9,C evolving parent minus D evolving other survivor,transfer,20,-10.4,126.22719700269786,-69.47614667903338,48.67614667903338
+10,B full parent minus A blank,abundance,20,-0.0006250000000001422,0.0020390020205409433,-0.0015792823203288403,0.00032928232032855597
+10,B full parent minus A blank,persistence,20,0.0,0.0,0.0,0.0
+10,B full parent minus A blank,births,20,-1.05,8.500619172494995,-5.028412236201239,2.9284122362012397
+10,B full parent minus A blank,first_choice,20,-0.0044832747470075875,0.05866078077050268,-0.03193736523933445,0.022970815745319274
+10,B full parent minus A blank,child_brier,20,0.06192605265786533,0.04451522155416505,0.04109228766562427,0.08275981765010638
+10,B full parent minus A blank,donor_brier,20,0.007963936088184532,0.023013411184924597,-0.0028066718871827354,0.0187345440635518
+10,B full parent minus A blank,transfer,20,0.0,0.0,0.0,0.0
+10,C evolving parent minus D evolving other survivor,abundance,20,0.0,0.0027036903521815273,-0.0012653660353144777,0.0012653660353144777
+10,C evolving parent minus D evolving other survivor,persistence,20,0.0,0.0,0.0,0.0
+10,C evolving parent minus D evolving other survivor,births,20,-0.35,6.619548402469127,-3.4480440163372172,2.748044016337217
+10,C evolving parent minus D evolving other survivor,first_choice,20,0.013017968998431485,0.046723497314734214,-0.008849300863099749,0.03488523885996272
+10,C evolving parent minus D evolving other survivor,child_brier,20,0.006662344765074259,0.020474567488529292,-0.002920047784736322,0.01624473731488484
+10,C evolving parent minus D evolving other survivor,donor_brier,20,0.018157213141678914,0.029155880805485958,0.004511840892903645,0.031802585390454184
+10,C evolving parent minus D evolving other survivor,transfer,20,0.0,0.0,0.0,0.0
+11,B full parent minus A blank,abundance,20,-0.010833333333332718,0.020340665919739327,-0.020353058019907617,-0.0013136086467578183
+11,B full parent minus A blank,persistence,20,0.0,0.0,0.0,0.0
+11,B full parent minus A blank,births,20,1.95,10.23654444162009,-2.8408502706169356,6.740850270616936
+11,B full parent minus A blank,first_choice,20,-0.010366609066587951,0.051625302282802994,-0.034527994270627,0.013794776137451099
+11,B full parent minus A blank,child_brier,20,0.06280996249200772,0.043101067335456614,0.042638042047019084,0.08298188293699636
+11,B full parent minus A blank,donor_brier,20,0.008847845922326921,0.02541364992609122,-0.0030461083627490795,0.020741800207402922
+11,B full parent minus A blank,transfer,20,1520.0,128.1052199109039,1460.044911544343,1579.955088455657
+11,C evolving parent minus D evolving other survivor,abundance,20,-0.0008333333333339965,0.00922826195518074,-0.005152292874558291,0.0034856262078902986
+11,C evolving parent minus D evolving other survivor,persistence,20,0.0,0.0,0.0,0.0
+11,C evolving parent minus D evolving other survivor,births,20,-0.5,5.529823448214333,-3.0880370387127103,2.0880370387127103
+11,C evolving parent minus D evolving other survivor,first_choice,20,0.008421542605286858,0.03672359139543404,-0.008765627223186643,0.02560871243376036
+11,C evolving parent minus D evolving other survivor,child_brier,20,0.007993527491135164,0.021655977008288387,-0.0021417817338021186,0.018128836716072447
+11,C evolving parent minus D evolving other survivor,donor_brier,20,0.015608331389513255,0.03277549985965116,0.00026892527764335074,0.03094773750138316
+11,C evolving parent minus D evolving other survivor,transfer,20,-6.0,64.04603607439032,-35.974467556785555,23.97446755678555
+12,B full parent minus A blank,abundance,20,0.007916666666666706,0.017200868671114755,-0.00013358767432010074,0.015966921007653512
+12,B full parent minus A blank,persistence,20,0.0,0.0,0.0,0.0
+12,B full parent minus A blank,births,20,0.0,0.0,0.0,0.0
+12,B full parent minus A blank,first_choice,5,0.6,0.5477225575051662,-0.08008738060980647,1.2800873806098063
+12,B full parent minus A blank,child_brier,5,-0.2407392125308374,7.474668248102305e-05,-0.24083202279545265,-0.24064640226622216
+12,B full parent minus A blank,donor_brier,5,0.0,0.0,0.0,0.0
+12,B full parent minus A blank,transfer,20,0.0,0.0,0.0,0.0
+12,C evolving parent minus D evolving other survivor,abundance,20,0.0,0.0,0.0,0.0
+12,C evolving parent minus D evolving other survivor,persistence,20,0.0,0.0,0.0,0.0
+12,C evolving parent minus D evolving other survivor,births,20,0.0,0.0,0.0,0.0
+12,C evolving parent minus D evolving other survivor,first_choice,5,0.0,0.0,0.0,0.0
+12,C evolving parent minus D evolving other survivor,child_brier,5,-0.06151330494055648,0.06448339229863251,-0.1415800116341144,0.018553401753001443
+12,C evolving parent minus D evolving other survivor,donor_brier,5,-0.0752710474117702,0.05041485566129504,-0.13786935865657995,-0.012672736166960422
+12,C evolving parent minus D evolving other survivor,transfer,20,0.0,0.0,0.0,0.0
+13,B full parent minus A blank,abundance,20,0.0,0.0,0.0,0.0
+13,B full parent minus A blank,persistence,20,0.0,0.0,0.0,0.0
+13,B full parent minus A blank,births,20,0.0,0.0,0.0,0.0
+13,B full parent minus A blank,first_choice,20,0.0,0.0,0.0,0.0
+13,B full parent minus A blank,child_brier,20,0.0,0.0,0.0,0.0
+13,B full parent minus A blank,donor_brier,20,0.0,0.0,0.0,0.0
+13,B full parent minus A blank,transfer,20,0.0,0.0,0.0,0.0
+13,C evolving parent minus D evolving other survivor,abundance,20,0.0,0.0,0.0,0.0
+13,C evolving parent minus D evolving other survivor,persistence,20,0.0,0.0,0.0,0.0
+13,C evolving parent minus D evolving other survivor,births,20,0.0,0.0,0.0,0.0
+13,C evolving parent minus D evolving other survivor,first_choice,20,0.0,0.0,0.0,0.0
+13,C evolving parent minus D evolving other survivor,child_brier,20,0.0,0.0,0.0,0.0
+13,C evolving parent minus D evolving other survivor,donor_brier,20,0.0,0.0,0.0,0.0
+13,C evolving parent minus D evolving other survivor,transfer,20,0.0,0.0,0.0,0.0
+14,B full parent minus A blank,abundance,20,-0.13062499999999985,0.05402774019451831,-0.15591076075724658,-0.10533923924275311
+14,B full parent minus A blank,persistence,20,0.0,0.0,0.0,0.0
+14,B full parent minus A blank,births,20,28.15,38.303875027277115,10.223234665597282,46.076765334402715
+14,B full parent minus A blank,first_choice,20,0.007465350234669816,0.03570073130231981,-0.009243106334476106,0.024173806803815735
+14,B full parent minus A blank,child_brier,20,0.0,0.0,0.0,0.0
+14,B full parent minus A blank,donor_brier,20,0.0,0.0,0.0,0.0
+14,B full parent minus A blank,transfer,20,6160.8,703.3772365111805,5831.609320166243,6489.990679833757
+14,C evolving parent minus D evolving other survivor,abundance,20,0.0,0.0,0.0,0.0
+14,C evolving parent minus D evolving other survivor,persistence,20,0.0,0.0,0.0,0.0
+14,C evolving parent minus D evolving other survivor,births,20,0.0,0.0,0.0,0.0
+14,C evolving parent minus D evolving other survivor,first_choice,20,0.0,0.0,0.0,0.0
+14,C evolving parent minus D evolving other survivor,child_brier,20,0.0,0.0,0.0,0.0
+14,C evolving parent minus D evolving other survivor,donor_brier,20,0.0,0.0,0.0,0.0
+14,C evolving parent minus D evolving other survivor,transfer,20,0.0,0.0,0.0,0.0

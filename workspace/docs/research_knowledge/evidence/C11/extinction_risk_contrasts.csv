@@ -1,0 +1,8 @@
+study,contrast,n,risk_difference,ordinary_lo95,ordinary_hi95
+A,A2 minus A1,64,0.953125,0.8999086853199946,1.0063413146800055
+A,A3 minus A1,64,1.0,1.0,1.0
+B,B2-informative minus B1-informative,64,-0.765625,-0.8722755060043282,-0.6589744939956718
+B,B3-informative minus B3-null,64,-1.0,-1.0,-1.0
+B,B4-informative minus B3-informative,64,0.0,0.0,0.0
+B,B4-null minus B3-null,64,0.0,0.0,0.0
+B,B2-null minus B1-null,64,0.0,0.0,0.0

@@ -1,0 +1,11 @@
+test_archived_seed_replays (test_inherited_experience.InheritanceTests.test_archived_seed_replays) ... ok
+test_archived_summary_metrics (test_inherited_experience.InheritanceTests.test_archived_summary_metrics) ... ok
+test_energy_schedule_and_withdrawal (test_inherited_experience.InheritanceTests.test_energy_schedule_and_withdrawal) ... ok
+test_pairing_and_first_choice (test_inherited_experience.InheritanceTests.test_pairing_and_first_choice) ... ok
+test_local_hits_match_original_cell_dynamics (test_local_sensing.LocalSensingTest.test_local_hits_match_original_cell_dynamics) ... ok
+test_probe_readings_match_four_field_samples (test_local_sensing.LocalSensingTest.test_probe_readings_match_four_field_samples) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.877s
+
+OK
