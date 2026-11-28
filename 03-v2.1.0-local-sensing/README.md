@@ -1,6 +1,6 @@
 # v2.1.0 — Local-sensing pilot
 
-[Back to research overview](../README.md) · [Exact historical checkpoint](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/6cad1e4b2931fa685375a3eb8f4d9dd54dd79aa8) · [Tag v2.1.0](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/v2.1.0)
+[Back to research overview](../README.md) · [Reviewed historical files](snapshot/) · [Technical provenance](../workspace/docs/PUBLIC_TECHNICAL_PROVENANCE.md)
 
 This is a retrospective guide to historical checkpoint `6cad1e4b2931fa685375a3eb8f4d9dd54dd79aa8`. The `snapshot/` directory is a curated copy with editorial revisions to documentation and source annotations; executable logic and recorded results are retained. Exact original files are preserved separately. This is not a newly run experiment.
 

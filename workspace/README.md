@@ -25,4 +25,4 @@ The protocol for each study gives its reproduction commands. The [model history]
 
 ## Research checkpoints
 
-[Navigation baseline · v2.0.0](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/v2.0.0) · [Local-sensing pilot · v2.1.0](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/v2.1.0) · [Inherited experience · v2.2.0](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/v2.2.0)
+[Navigation baseline · v2.0.0](../02-v2.0.0-navigation/) · [Local-sensing pilot · v2.1.0](../03-v2.1.0-local-sensing/) · [Inherited experience · v2.2.0](../05-v2.2.0-inherited-experience/) · [Technical provenance](docs/PUBLIC_TECHNICAL_PROVENANCE.md) · [Research overview](../README.md)

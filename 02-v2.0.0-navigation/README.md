@@ -1,6 +1,6 @@
 # v2.0.0 — Direct-navigation baseline
 
-[Back to research overview](../README.md) · [Exact historical checkpoint](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/7354b8f600b5740ffe202e70f62bc5478ee7a963) · [Tag v2.0.0](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/v2.0.0)
+[Back to research overview](../README.md) · [Reviewed historical files](snapshot/) · [Technical provenance](../workspace/docs/PUBLIC_TECHNICAL_PROVENANCE.md)
 
 This is a retrospective guide to historical checkpoint `7354b8f600b5740ffe202e70f62bc5478ee7a963`. The `snapshot/` directory is a curated copy with editorial revisions to documentation and source annotations; executable logic and recorded results are retained. Exact original files are preserved separately. This is not a newly run experiment.
 

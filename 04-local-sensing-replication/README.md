@@ -1,6 +1,6 @@
 # Local-sensing replication — 20 fresh seeds
 
-[Back to research overview](../README.md) · [Exact historical checkpoint](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/769c9052e856cddc86228d58dbd9bbbf978f6484)
+[Back to research overview](../README.md) · [Reviewed historical files](snapshot/) · [Technical provenance](../workspace/docs/PUBLIC_TECHNICAL_PROVENANCE.md)
 
 This is a retrospective guide to historical checkpoint `769c9052e856cddc86228d58dbd9bbbf978f6484`. The `snapshot/` directory is a curated copy with editorial revisions to documentation and source annotations; executable logic and recorded results are retained. Exact original files are preserved separately. This is not a newly run experiment.
 

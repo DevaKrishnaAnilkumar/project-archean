@@ -1,6 +1,6 @@
 # v2.3.1 — Lifetime learning: results and independent audit
 
-Run date: 26 November 2026. Methodology checkpoint: [`091731949bb5ad5eac74c0257d05a98c8d1a4786`](https://github.com/DevaKrishnaAnilkumar/project-archean/commit/091731949bb5ad5eac74c0257d05a98c8d1a4786). See [protocol](PROTOCOL.md), [implementation](IMPLEMENTATION.md), and [locked analysis](ANALYSIS.md).
+Run date: 26 November 2026. Methodology checkpoint: `091731949bb5ad5eac74c0257d05a98c8d1a4786` (original checkpoint; see [technical provenance](../../docs/PUBLIC_TECHNICAL_PROVENANCE.md)). See [protocol](PROTOCOL.md), [implementation](IMPLEMENTATION.md), and [locked analysis](ANALYSIS.md).
 
 ## Primary outcome
 

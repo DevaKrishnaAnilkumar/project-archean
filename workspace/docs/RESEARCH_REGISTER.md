@@ -1,7 +1,7 @@
 # Project Archean — Living research register
 
 **Edition:** 1.2 · 28 November 2026 (C11 closeout)
-**Evidence baseline:** [v2.3.1 publication checkpoint `4fa6bd7`](https://github.com/DevaKrishnaAnilkumar/project-archean/commit/4fa6bd7ecd3a59fe0d31e0d3dfa3f5239e09e740).
+**Evidence baseline:** [v2.3.1 results](../experiments/v2_3_lifetime_learning/RESULTS.md) (original publication checkpoint `4fa6bd7ecd3a59fe0d31e0d3dfa3f5239e09e740`).
 **Purpose:** Preserve questions, inspirations, hypotheses, counterarguments, scoped findings and milestones as the research develops. This is an index of evidence and uncertainty, not a claim that the research programme is complete.
 
 [Research agenda and biological motivations](FUTURE_DIRECTIONS.md) · [Original research programme](RESEARCH.md) · [Project overview](../../README.md)
@@ -147,7 +147,7 @@ All future rows are proposals (not verified findings or approved protocols). Com
 | Date | IDs | Transition | Evidence / reason |
 | --- | --- | --- | --- |
 | 2026-11-26 | F-001–F-010, M-001–M-004 | Initial retrospective registration | E01–E06; scoped evidence and explicit historical limitations. Not retroactive pre-registration. |
-| 2026-11-26 | H-001–H-004, F-011–F-015, M-005 | Initial registration of completed study | [Locked pre-execution checkpoint](https://github.com/DevaKrishnaAnilkumar/project-archean/commit/091731949bb5ad5eac74c0257d05a98c8d1a4786) and [publication checkpoint](https://github.com/DevaKrishnaAnilkumar/project-archean/commit/4fa6bd7ecd3a59fe0d31e0d3dfa3f5239e09e740). H-001 primary supported; H-002–H-004 exploratory; audit is computational, not fresh-seed replication. |
+| 2026-11-26 | H-001–H-004, F-011–F-015, M-005 | Initial registration of completed study | [Reviewed protocol](../experiments/v2_3_lifetime_learning/PROTOCOL.md) and [results](../experiments/v2_3_lifetime_learning/RESULTS.md); original lock and publication identifiers in [technical provenance](PUBLIC_TECHNICAL_PROVENANCE.md). H-001 primary supported; H-002–H-004 exploratory; audit is computational, not fresh-seed replication. |
 | 2026-11-26 | H-005–H-017, Q-001–Q-020, M-006–M-014 | Initial prospective registration | E08, original research programme and project discussions. No designated studies executed for these hypotheses; new protocols and review required. |
 | 2026-11-26 | Q-021–Q-047 | Initial prospective registration | Foundational research consolidation; 27 distinct open questions, 9 linked refinements. No change to existing scientific statuses or milestone states. |
 

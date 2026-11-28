@@ -1,6 +1,6 @@
 # Original model — homeostatic selection (May 2026)
 
-[Back to research overview](../README.md) · [Exact historical checkpoint](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/db28afb06bbaae807a7b9196e8525c3ee9f07964)
+[Back to research overview](../README.md) · [Reviewed historical files](snapshot/) · [Technical provenance](../workspace/docs/PUBLIC_TECHNICAL_PROVENANCE.md)
 
 This is a retrospective guide to historical checkpoint `db28afb06bbaae807a7b9196e8525c3ee9f07964`. The `snapshot/` directory is a curated copy with editorial revisions to documentation and source annotations; executable logic and recorded results are retained. Exact original files are preserved separately. This is not a newly run experiment.
 
