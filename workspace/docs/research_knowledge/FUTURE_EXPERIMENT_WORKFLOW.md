@@ -1,0 +1,7 @@
+# Cumulative experiment review workflow
+
+Before protocol authorisation, complete [PRIOR_EVIDENCE_REVIEW.md](templates/PRIOR_EVIDENCE_REVIEW.md) with the relevant canonical records from v1 onward, earlier comparisons and failures, unresolved questions, expected transfer and competing informative outcomes. Identify exactly which conditions, policies, accounting rules and outcomes change. Select controls and denominators before inspecting evaluation outcomes.
+
+After completing an experiment, include [CROSS_EXPERIMENT_COMPARISON.md](templates/CROSS_EXPERIMENT_COMPARISON.md), [RESEARCH_BRANCH_CANDIDATES.md](templates/RESEARCH_BRANCH_CANDIDATES.md), and knowledge-register update candidates. Account for each declared prior relationship. Keep technical status distinct from scientific status. Record nulls, inconclusive contrasts, design constraints, implementation errors and small secondary outcomes. Distinguish latent capabilities proposed in discussion from causal mechanisms tested by the protocol. Preserve historical predictions, raw records, corrections and attribution. A later comparison may support, extend, qualify, contradict, explain, be inconclusive or be non-comparable.
+
+Include reviewed checklists and primary evidence links in the new review package before computing hashes. Route permanent ID decisions, status changes and new experimental protocols through research planning. The recovery package itself approves no experiment.

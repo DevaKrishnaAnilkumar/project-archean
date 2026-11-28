@@ -1,8 +1,8 @@
 # v2.0.0 — Direct-navigation baseline
 
-[Back to research overview](../README.md) · [Exact historical checkpoint](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/7354b8f600b5740ffe202e70f62bc5478ee7a963) · [Tag v2.0.0](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/v2.0.0)
+[Back to research overview](../README.md) · [Reviewed historical files](snapshot/) · [Technical provenance](../workspace/docs/PUBLIC_TECHNICAL_PROVENANCE.md)
 
-This is a retrospective guide. The `snapshot/` directory preserves the entire tracked tree at commit `7354b8f600b5740ffe202e70f62bc5478ee7a963` byte-for-byte, including its original README and relative paths. This is a historical checkpoint, not a newly run experiment.
+This is a retrospective guide to historical checkpoint `7354b8f600b5740ffe202e70f62bc5478ee7a963`. The `snapshot/` directory is a curated copy with editorial revisions to documentation and source annotations; executable logic and recorded results are retained. Exact original files are preserved separately. This is not a newly run experiment.
 
 ## Research question
 Does metabolic selection improve measurable vent-reaching performance when exact vent offsets are available?
@@ -13,7 +13,7 @@ Three independently seeded populations evolved for five epochs. Frozen controlle
 Outside-zone reach increased from 32.4% to 99.2%, 37.7% to 99.8%, and 31.6% to 37.5% across the three seeds. An exploratory extension of seed 2 reached 43.3% after ten epochs. Family dominance was correlated with performance, not established as causal.
 
 ## Evidence
-- [Original README (unchanged)](snapshot/README.md)
+- [Historical model overview (editorially revised)](snapshot/README.md)
 - [Research programme and protocol](snapshot/RESEARCH.md)
 - [Navigation source](snapshot/navigation_baseline.py)
 - [Baseline data](snapshot/baseline_results/summary.csv) and [raw archives](snapshot/baseline_results/)

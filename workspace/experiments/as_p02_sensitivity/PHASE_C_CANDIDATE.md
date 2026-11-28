@@ -1,0 +1,11 @@
+# Phase C candidate for scientific review
+
+Cross initial energy 4, 8, 16, 32, 64 and 128 with a small set of cost and reliability conditions agreed before execution. Start by comparing policies in the original AS-P02 geometry with a three-visit cap. Use fresh paired seeds fixed by the eventual protocol.
+
+- Debit each movement step or sensing event before it completes. Death is absorption on reaching zero at a debit. A resource reward can occur only after arrival alive, before paying for any return step. Record the death location and stage and whether the outward leg, sensing event, acquisition or return completed. Retain aborted and partial trajectories.
+- A sensing action is admissible only if the agent can pay for its entire round trip with positive residual energy. A patch attempt requires sufficient energy to reach the patch alive. If the return cannot be prepaid, record it as a risky action whose completion depends on the reward draw. Allow no travel as a fallback and report agents that survive without completing the task separately.
+- Define success as alive at the junction after attempting resource collection. Report that rate alongside raw survival, no attempt, trip completion, net energy and energy among completed trips. Fix a finite action horizon to prevent indefinite waiting.
+- Propose a lexicographic survival-aware benchmark that first maximises probability of surviving the episode, then probability of completed collection, then expected remaining energy. This will make abstention optimal in some states. Compare against a completion-prioritising objective to quantify the effect of that choice. Define the reward, time horizon and scoring for abstention before selecting the primary endpoint.
+- Use a finite-horizon dynamic program over remaining energy, belief, position or trip stage and observations left. Enumerate both reward outcomes explicitly. Benchmark the heuristic and fixed policies with the same admissible actions and all deaths retained. Include exact edge tests at zero balance, arrival before reward, reward-assisted survival and death on return.
+
+The 16–128 levels may have no deaths in some conditions. They provide comparisons with the non-mortality assay. This document proposes a design. No Phase C simulation was run.

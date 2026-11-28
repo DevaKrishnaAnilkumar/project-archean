@@ -1,0 +1,82 @@
+{
+  "review_manifest_files": 67,
+  "studies": {
+    "A": {
+      "manifest_files": 3461,
+      "worlds": 192,
+      "replays": 1536,
+      "extinctions": {
+        "A1": 0,
+        "A2": 61,
+        "A3": 64
+      },
+      "births": 29787,
+      "deaths": 35403,
+      "action_rows": 1053829,
+      "primary": {
+        "A-P1": {
+          "mean_pp": 24.371290418836807,
+          "adjusted_ci_pp": [
+            20.828701658317033,
+            27.91387917935658
+          ],
+          "positive_blocks": 64
+        },
+        "A-P2": {
+          "mean_pp": 23.883911132812504,
+          "adjusted_ci_pp": [
+            20.366696765847596,
+            27.401125499777407
+          ],
+          "positive_blocks": 64
+        },
+        "A-P3": {
+          "mean_pp": 24.498996310763886,
+          "adjusted_ci_pp": [
+            20.966865056035324,
+            28.031127565492447
+          ],
+          "positive_blocks": 64
+        }
+      },
+      "all_period_active_and_summed_passive_genotype_counts_match": true
+    },
+    "B": {
+      "manifest_files": 4275,
+      "worlds": 512,
+      "replays": 2048,
+      "extinctions": {
+        "B1-informative": 49,
+        "B2-informative": 0,
+        "B3-informative": 0,
+        "B4-informative": 0,
+        "B1-null": 64,
+        "B2-null": 64,
+        "B3-null": 64,
+        "B4-null": 64
+      },
+      "births": 110747,
+      "deaths": 118396,
+      "action_rows": 5428292,
+      "primary": {
+        "B-P1": {
+          "mean_pp": 82.05810546875,
+          "adjusted_ci_pp": [
+            81.45254624686739,
+            82.66366469063261
+          ],
+          "positive_blocks": 64
+        },
+        "B-P2": {
+          "mean_pp": 42.414358816871434,
+          "adjusted_ci_pp": [
+            40.41401604481605,
+            44.41470158892682
+          ],
+          "positive_blocks": 64
+        }
+      },
+      "all_period_active_and_summed_passive_genotype_counts_match": true
+    }
+  }
+}

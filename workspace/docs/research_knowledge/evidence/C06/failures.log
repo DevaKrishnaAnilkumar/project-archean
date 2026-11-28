@@ -1,0 +1,2 @@
+First smoke attempt stopped on an NPZ key collision between potential reward draws and realised rewards before writing any seed archives. Renamed the trajectory field to acquired. The scientific protocol and seeds were unaffected. Re-ran smoke only before committing the implementation.
+The revised smoke run passed. No evaluation seed was accessed during the initial smoke failure or repair. The evaluation ran once. No substantive deviations or numerical flags were found.

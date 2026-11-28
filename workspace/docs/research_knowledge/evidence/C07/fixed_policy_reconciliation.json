@@ -1,0 +1,10 @@
+{
+  "site": 0,
+  "obs": 0,
+  "patch": 0,
+  "acquired": 0,
+  "return_steps": 0,
+  "energy": 0,
+  "learned_memory_diff": 998400,
+  "patch_belief_diff": 449142
+}

@@ -1,0 +1,61 @@
+id,title,status,related,evidence
+F-016,Matched-cost AS-P01 comparison,INCONCLUSIVE,F-005;Q-004,evidence/C02/AS_P01_RESULTS.md
+F-017,Entropy reduction and patch accuracy diverge,ANALYTICAL FINDING,F-016;Q-004,evidence/C03/AS_P01_EXACT_REPORT.md
+F-018,Cost-sensitive sensing under the AS-P02 schedule,EXPLORATORY EVIDENCE,F-017;H-007;Q-004,evidence/C04/AS_P02_RESULTS.md
+F-019,Compulsory information can reduce retained energy,EXPLORATORY EVIDENCE,F-017;H-007;Q-004,evidence/C04/AS_P02_RESULTS.md
+F-020,Myopic stopping misses jointly valuable free observations,ANALYTICAL FINDING,F-018;H-011,evidence/C05/C05_RESULTS.md
+F-021,Cost and reliability bound the advantage of optional sensing,ANALYTICAL FINDING,F-018;F-020;H-007,evidence/C05/C05_RESULTS.md
+F-022,One-episode survival-first abstention at four units,ANALYTICAL FINDING,F-021;H-012,evidence/C06/RESULTS.md
+F-023,Expensive sensing can make return survival reward-dependent,ANALYTICAL FINDING,F-019;F-021;H-012,evidence/C06/RESULTS.md
+F-024,Planning and fixed routines can tie on completion with different energy,ANALYTICAL FINDING,F-020;F-021;H-011,evidence/C06/RESULTS.md
+F-025,Adaptive lifetime sensing improves stable performance,EXPLORATORY EVIDENCE,F-011;F-014;H-004,evidence/C07/primary_contrasts.csv
+F-026,Fixed learners change confidence while matched actions coincide,ANALYTICAL FINDING,F-017;F-025;Q-026,C07.md#learning-changed-beliefs-without-changing-fixed-policy-behaviour
+F-027,Costly lifetime sensing can shorten survival despite better choices,EXPLORATORY EVIDENCE,F-019;F-023;H-007,evidence/C07/condition_means.csv
+F-028,Full-trip energetic break-even bound,ANALYTICAL FINDING,F-018;F-027;Q-004,C07.md#accuracy-above-chance-can-be-insufficient-to-pay-for-sensing
+F-029,Learning shows no clear survival advantage under unpredictable mappings,EXPLORATORY EVIDENCE,F-012;F-025;H-002;H-006,evidence/C07/secondary_contrasts.csv
+F-030,Belief recovery and resource choice can rank policies differently,EXPLORATORY EVIDENCE,F-012;F-025;H-002,evidence/C07/condition_means.csv
+F-031,Uninformative sensing spent energy with identical actions,VERIFIED WITHIN SCOPE,F-019;F-027;H-003,evidence/C07/RESULTS.md
+H-018,Repeated safe abstention may deplete reserves,HYPOTHESIS,F-022;F-023;H-012,SENSING_AND_MORTALITY.md#staying-safe-for-an-episode-versus-sustaining-reserves
+H-019,Episode-level energy savings may improve later opportunities,HYPOTHESIS,F-024;H-010;Q-007,DESIGN_GOVERNANCE.md#variability-and-lifetime-investment
+Q-048,When can confidence alter action and survival?,OPEN QUESTION,F-026;Q-004;Q-026,C07.md#learning-changed-beliefs-without-changing-fixed-policy-behaviour
+Q-049,When is sensing optional and energetically worthwhile?,OPEN QUESTION,F-027;F-028;Q-004,DESIGN_GOVERNANCE.md#variability-and-lifetime-investment
+Q-050,Does early mortality limit access to useful feedback?,OPEN QUESTION,F-025;F-027;H-004,C07.md#early-mortality-and-access-to-feedback
+F-032,"Stable, cheap informative sensing enriches the heritable joint trait",VERIFIED WITHIN SCOPE,F-025;H-005;H-008,evidence/C08/primary_contrasts.csv
+F-033,Sensing and mapping learning diverge under unpredictable mappings,EXPLORATORY EVIDENCE,F-029;H-006,evidence/C08/genotypes.csv
+F-034,Expensive sensing can favour simpler genotypes or coexist with extinction,EXPLORATORY EVIDENCE,F-021;F-023;F-027;F-028;H-007,evidence/C08/conditions.csv
+F-035,Null cues and unused learning overhead affect trait composition,EXPLORATORY EVIDENCE,F-031;Q-004,evidence/C08/genotypes.csv
+F-036,Higher reward preserves founder lineages while reducing measured joint enrichment,EXPLORATORY EVIDENCE,F-001;H-005;Q-007;Q-041,evidence/C08/conditions.csv
+F-037,Longer observed lifetimes can accompany fewer births per at-risk period,EXPLORATORY EVIDENCE,F-025;Q-007,evidence/C08/genotypes.csv
+F-038,Demographic occupancy limits conditional joint-trait enrichment,ANALYTICAL FINDING,F-001;H-005;Q-009,C08.md#denominators-and-scope
+F-039,Stable free retention enriches nonblank acquired-information receptivity,EXPLORATORY EVIDENCE,F-007;F-032;F-038;H-009,evidence/C09/primary.csv
+F-040,Early offspring accuracy and population abundance can diverge,EXPLORATORY EVIDENCE,F-025;F-027;F-037,evidence/C09/RESULTS.md
+F-041,Donor source and environmental persistence change information quality,EXPLORATORY EVIDENCE,F-007;H-009;Q-006,evidence/C09/RESULTS.md
+F-042,Partial retention can moderate mismatch after reversal,EXPLORATORY EVIDENCE,F-007;F-029;H-009;Q-006,evidence/C09/alleles.csv
+F-043,Transfer can incur cost without transmitting useful information,VERIFIED WITHIN SCOPE,F-031;F-035;Q-004,evidence/C09/RESULTS.md
+F-044,Extreme sensing expenditure can overwhelm inherited information,EXPLORATORY EVIDENCE,F-001;F-027;F-028;F-034,evidence/C09/conditions.csv
+F-045,Apparent inherited-belief revision depends on exposure and censoring,EXPLORATORY EVIDENCE,F-030;Q-050,evidence/C09/RESULTS.md
+Q-051,When do recombination and dual-parent acquired information improve survival?,OPEN QUESTION,H-009;H-010;Q-006;Q-008;F-041,evidence/C09/RESEARCH_BRANCH_CANDIDATES.md
+Q-052,Can reproductive mode itself evolve under survival and demographic pressure?,OPEN QUESTION,Q-051;H-005;H-009;H-010;Q-007;Q-008;Q-018;Q-041,EVOLVABLE_REPRODUCTION.md
+M-015,C10 controlled recombination and dual-parent information assay,AUDITED,Q-051;F-046;F-047;F-048;F-049;F-050;F-051;F-052;F-053,C10.md
+M-016,Evolution of reproductive strategy including facultative switching,PROPOSED,Q-052;M-015,EVOLVABLE_REPRODUCTION.md
+F-046,Recombination generates absent trait combinations,EXPLORATORY EVIDENCE,Q-051;H-015,C10.md
+F-047,Genetic novelty without demonstrated adaptive value,EXPLORATORY EVIDENCE,F-032;F-038;H-005,C10.md
+F-048,Standing variation and mutation moderate recombination,EXPLORATORY EVIDENCE,Q-041;Q-051,C10.md
+F-049,Population abundance can mask genotype differences,VERIFIED WITHIN SCOPE,F-026;F-036;F-038;F-040,C10.md
+F-050,Context-dependent parental memory pooling,EXPLORATORY EVIDENCE,F-007;F-041;F-042;H-009,C10.md
+F-051,Mate requirements and parental cost sharing,INCONCLUSIVE,H-010;Q-041;Q-051,C10.md
+F-052,Extinction across expensive-sensing reproductive policies,EXPLORATORY EVIDENCE,F-027;F-028;F-034;F-044,C10.md
+F-053,Functional complementarity of sensing and learning,VERIFIED WITHIN SCOPE,F-026;Q-047,C10.md
+Q-053,Lifetime structural neural plasticity,OPEN QUESTION,Q-005;Q-047;H-015,PLASTIC_EVOLUTION_AND_CHALLENGES.md
+Q-054,Evolution of learning rules,OPEN QUESTION,H-008;H-015;Q-005;Q-032,PLASTIC_EVOLUTION_AND_CHALLENGES.md
+Q-055,Evolution of mutation and recombination operators,OPEN QUESTION,Q-030;Q-051;Q-052,PLASTIC_EVOLUTION_AND_CHALLENGES.md
+Q-056,Progressive and exponential environmental challenges,OPEN QUESTION,Q-003;Q-010;H-006;H-007,PLASTIC_EVOLUTION_AND_CHALLENGES.md
+Q-057,Adaptive environmental challenge feedback,OPEN QUESTION,Q-010;Q-019;M-012,PLASTIC_EVOLUTION_AND_CHALLENGES.md
+Q-058,Natural versus guided intelligence evolution,OPEN QUESTION,H-005;H-016;Q-016,PLASTIC_EVOLUTION_AND_CHALLENGES.md
+M-017,Plastic and self-evolving neural controllers,PROPOSED,Q-053;Q-054;Q-055;M-010,PLASTIC_EVOLUTION_AND_CHALLENGES.md
+M-018,Escalating and adaptive environmental challenges,PROPOSED,Q-056;Q-057,PLASTIC_EVOLUTION_AND_CHALLENGES.md
+M-019,Natural versus guided intelligence evolution,PROPOSED,Q-058,PLASTIC_EVOLUTION_AND_CHALLENGES.md
+F-054,"Supplied lifetime learning improves population viability under stable informative cues at fixed S=1 and zero learner overhead: +82.0581 pp [81.4525,82.6637] adjusted 97.5% interval.",VERIFIED WITHIN SCOPE,H-005;H-008;F-025;F-038,C11.md
+F-055,"Selection favours supplied learning from standing heritable variation without mutation: informative-minus-null living-frequency enrichment +42.4144 pp [40.4140,44.4147] adjusted 97.5% interval.",VERIFIED WITHIN SCOPE,H-005;H-008;F-032;F-035;F-038,C11.md
+F-056,"Learning-locus mutation effect on informative mixed-population enrichment is uncertain: -1.0157 pp [-2.1274,+0.0959] ordinary 95% interval.",INCONCLUSIVE,F-055;Q-055,C11.md
+M-020,C11 targeted fresh-seed confirmation and controlled learning mechanism investigation.,AUDITED,F-032;F-054;F-055;F-056;H-005;H-008,C11.md

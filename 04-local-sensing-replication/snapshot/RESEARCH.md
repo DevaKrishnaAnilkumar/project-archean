@@ -1,6 +1,6 @@
 # Archean research programme
 
-The PHD project asks when self-maintenance and reproduction favour a measurable cognitive capacity, and which information an offspring can use. The Toronto application can cite completed, reproducible experiments from this programme. The phases below are proposals beyond the navigation baseline.
+The research programme asks when self-maintenance and reproduction favour a measurable adaptive capacity, and which information an offspring can use. The phases below are proposals beyond the navigation baseline.
 
 ## 1. Direct-navigation reference experiment
 
@@ -18,7 +18,7 @@ Give a cell a small mutable memory and verify cue learning and reversal within o
 
 ## 4. What does survival pressure preserve?
 
-Compare selection for individual longevity with selection for surviving descendants when division costs energy. Record division rates and inherited warning responses after simulated hazards disappear. Compare predictable external energy interventions with random and action-contingent interventions entirely inside the simulation. Quantify false alarms, missed danger, and time to revise a learned warning. Predicting a perturbation supports a behavioural claim; attribution to a designer requires independent evidence.
+Compare selection for individual longevity with selection for surviving descendants when division costs energy. Record division rates and inherited warning responses after simulated hazards disappear. Compare predictable external energy interventions with random and action-contingent interventions entirely inside the simulation. Quantify false alarms, missed danger, and time to revise a learned warning. Predicting a perturbation supports a behavioural claim; identification of its causal source requires independent evidence.
 
 ## 5. Can selective inheritance help a human task?
 
@@ -26,4 +26,4 @@ After identifying a transferable mechanism, compare selective inheritance, fresh
 
 ## First checkpoint
 
-Outside-zone success at epochs 0 and 5 was 32.4% → 99.2% (seed 0), 37.7% → 99.8% (seed 1), and 31.6% → 37.5% (seed 2). The largest family accounted for 98.2%, 100%, and 19.8% of the final populations respectively. In an exploratory extension (`python navigation_baseline.py extended_results --epochs 10 --seeds 2`), seed 2 reached 43.3% with 21 lineages left. Family dominance is a correlate here; whether it causes higher reach rates requires further trials. The Toronto pilot's exact held-out positions were unavailable. These figures are a new run under the recorded protocol.
+Outside-zone success at epochs 0 and 5 was 32.4% → 99.2% (seed 0), 37.7% → 99.8% (seed 1), and 31.6% → 37.5% (seed 2). The largest family accounted for 98.2%, 100%, and 19.8% of the final populations respectively. In an exploratory extension (`python navigation_baseline.py extended_results --epochs 10 --seeds 2`), seed 2 reached 43.3% with 21 lineages left. Family dominance is a correlate here; whether it causes higher reach rates requires further trials. Exact held-out positions from the earlier pilot were unavailable. These figures are a new run under the recorded protocol.

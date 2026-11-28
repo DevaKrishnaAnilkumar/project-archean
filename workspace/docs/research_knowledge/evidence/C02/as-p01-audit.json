@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "seed_blocks": 20,
+  "condition_assigned_episodes": 15360,
+  "conditions": 6,
+  "negative_control": "PASS",
+  "resource_movement_energy": 4.0,
+  "sampling_energy": 3.75
+}

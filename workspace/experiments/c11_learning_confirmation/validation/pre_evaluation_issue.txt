@@ -1,0 +1,1 @@
+First A fixture audit failed before evaluation: local scalar shuffle variable rng shadowed independent vector RNG function (UnboundLocalError). Corrected audit local name; same raw fixture retained and re-audited.

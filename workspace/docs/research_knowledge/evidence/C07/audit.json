@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "seed_archives": 50,
+  "reconstructed_scheduled_periods": 6912000,
+  "controls": [
+    "maintenance and energy continuity",
+    "permanent mortality",
+    "reward timing",
+    "independent Bayesian feedback likelihood",
+    "frozen beliefs and q=0.5 negative controls",
+    "high energy survival"
+  ],
+  "atol": 1e-12
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "filename": "Archean_C10_Raw_Evidence_Part_1.zip",
+    "settings": "0\u20135",
+    "worlds_including_smoke": 1056,
+    "verified_raw_members": 6338,
+    "bytes": 189822575,
+    "sha256": "7d243b861694207c1453eb87f94d71375b0776dda5f03772cf465e58eadfe403"
+  },
+  {
+    "filename": "Archean_C10_Raw_Evidence_Part_2.zip",
+    "settings": "6\u201311",
+    "worlds_including_smoke": 1056,
+    "verified_raw_members": 6336,
+    "bytes": 178546171,
+    "sha256": "2678530bb03ded2470a9682cc46743d1dd9ad511d2f0aaaec7e8049bd3e4a256"
+  }
+]

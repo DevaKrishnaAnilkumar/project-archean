@@ -1,0 +1,12 @@
+{
+  "worlds": 1920,
+  "actions": 46042735,
+  "births": 239574,
+  "deaths": 150570,
+  "extinct": 230,
+  "null_parity_seeds": 20,
+  "all_action_rng_replayed": true,
+  "all_parent_pairings_replayed": true,
+  "all_birth_mutations_and_recombination_replayed": true,
+  "status": "PASS"
+}

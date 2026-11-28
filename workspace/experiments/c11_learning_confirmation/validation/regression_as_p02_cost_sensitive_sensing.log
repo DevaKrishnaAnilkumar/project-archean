@@ -1,0 +1,11 @@
+test_all_policy_actions_and_energy (test_model.ModelTests.test_all_policy_actions_and_energy) ... ok
+test_hidden_state_and_unseen_outcomes_do_not_change_actions (test_model.ModelTests.test_hidden_state_and_unseen_outcomes_do_not_change_actions) ... ok
+test_seed_replay (test_model.ModelTests.test_seed_replay) ... ok
+test_updates_match_exact_outcome_enumeration (test_model.ModelTests.test_updates_match_exact_outcome_enumeration) ... ok
+test_pilot_requires_clean_checkpoint (test_runner.RunnerTests.test_pilot_requires_clean_checkpoint) ... ok
+test_smoke_roundtrip_and_no_overwrite (test_runner.RunnerTests.test_smoke_roundtrip_and_no_overwrite) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.487s
+
+OK

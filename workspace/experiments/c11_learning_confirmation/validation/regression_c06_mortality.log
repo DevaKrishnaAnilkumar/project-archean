@@ -1,0 +1,12 @@
+test_abstention_at_two_and_guaranteed_return_at_eight (test_c06.MortalityTests.test_abstention_at_two_and_guaranteed_return_at_eight) ... ok
+test_exact_transition (test_c06.MortalityTests.test_exact_transition) ... ok
+test_fatal_debit_is_absorbing (test_c06.MortalityTests.test_fatal_debit_is_absorbing) ... ok
+test_high_energy_c05_regression (test_c06.MortalityTests.test_high_energy_c05_regression) ... ok
+test_matching_and_optimality (test_c06.MortalityTests.test_matching_and_optimality) ... ok
+test_reward_credited_before_return_and_unaffordable_sensing (test_c06.MortalityTests.test_reward_credited_before_return_and_unaffordable_sensing) ... ok
+test_terminal_boundaries (test_c06.MortalityTests.test_terminal_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.329s
+
+OK

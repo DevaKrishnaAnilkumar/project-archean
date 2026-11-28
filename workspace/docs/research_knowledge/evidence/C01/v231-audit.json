@@ -1,0 +1,24 @@
+{
+  "zip_sha256": "500df8100610cb07c85e94cf78d11d844f3206584663aee3cbd067b03cc4992e",
+  "checkpoint": "091731949bb5ad5eac74c0257d05a98c8d1a4786",
+  "archives": 520,
+  "trajectories": 30720,
+  "scheduled_encounters": 983040,
+  "actual_choices": 935536,
+  "deaths": 3437,
+  "table_values_verified": 257048,
+  "max_table_absolute_difference": 0.0,
+  "primary": {
+    "n": 40,
+    "mean": 0.364306640625,
+    "sample_sd": 0.025584379616522455,
+    "lower_95": 0.35612435906952494,
+    "upper_95": 0.3724889221804751,
+    "supports_primary": true
+  },
+  "positive_seed_contrasts": 40,
+  "min_seed_contrast": 0.296875,
+  "max_seed_contrast": 0.42578125,
+  "audit_python": "3.12.14",
+  "audit_numpy": "2.3.5"
+}

@@ -1,0 +1,7 @@
+# C09 raw ledger schema
+
+Start with raw/design.csv. Files are little endian and headerless. C08's packed action layout and mapping schedule, genealogy and passive event encoding are reused unchanged at the byte level. In C09, the founder and event genotype field is the allele code 0, 1 or 2 (T equals code divided by two), and all active individuals use the same learning and sensing kernel. Death and no-alternative donor sentinel is uint16 65535 in their respective fields.
+
+births.bin uses uint16 period, child ID, parent ID, donor ID; uint8 allele, transfer ticks; float64 donor posterior and child's inherited prior. Parent is the actual reproductive parent, while donor can differ in D. Energy ticks are 1/16 units. Every birth row simultaneously records parental deduction and initial child reserve. Mapping and H remain retrospective audit fields. The action ledger includes before-period energy and after-action/pre-birth energy, passed through unchanged from C08. A newborn's inherited probability is recorded before its first hazard transition. Passive ledgers exist only for C.
+
+Audit curves are active end-period counts of the three alleles plus the number of living founder lineages. Offspring duration array has axes world, allele, observed action periods (0–240), death/censor flag (0/1). Revision cohorts include right-censored cases. In unpredictable settings alignment may be driven by a mapping redraw. World and condition reports retain original birth cohorts and distinguish attempted, observable and total denominators.

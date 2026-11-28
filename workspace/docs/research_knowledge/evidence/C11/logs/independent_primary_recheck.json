@@ -1,0 +1,16 @@
+{
+  "A": {
+    "worlds": 192,
+    "replays": 1536,
+    "primary_contrasts": 3,
+    "numeric_values_checked": 2898
+  },
+  "B": {
+    "worlds": 512,
+    "replays": 2048,
+    "primary_contrasts": 2,
+    "numeric_values_checked": 4492
+  },
+  "status": "PASS",
+  "absolute_tolerance": 1e-12
+}

@@ -1,0 +1,2 @@
+PASS 800 active worlds and 6400 replay pedigrees. Exact tick accounting, demographic and genotype traces, Bayesian feedback and fixture conditions checked.
+PASS independent seeded action draws sampled per world; reproduction order, mutations, and uniform passive selections replayed.

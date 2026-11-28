@@ -1,0 +1,3 @@
+PASS 1200 active worlds and 2400 passive replays; exact parent, donor, mutation and energy ledgers.
+PASS free null-cue A/B parity for 20 seeds; mapping, births, actions and energy agree.
+PASS replay draws, complete pedigrees, Bayesian belief updates and sampled action RNG reconstruction.

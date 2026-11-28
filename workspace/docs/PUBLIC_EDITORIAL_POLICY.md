@@ -1,0 +1,9 @@
+# Public editorial policy
+
+The public research tree is a curated scientific presentation. Exact historical snapshots, original locked protocols, research provenance and complete raw archives remain preserved separately. The public copies of selected historical documentation and source comments have been revised to use operational language, remove unrelated personal/application context, and distinguish historical accounts from measured findings.
+
+[Editorial manifest](PUBLIC_EDITORIAL_MANIFEST.csv) records SHA-256 digests of the pre-edit public candidate and edited versions. Selected protocol copies omit administrative references unrelated to scientific execution; their original lock hashes identify archived originals, not the edited public copy. Experimental design, numerical parameters, primary/secondary endpoints, reported outcomes, scientific status, code logic, tests and recorded data are unchanged. Python source changes are limited to comments and module docstrings; parsed executable syntax trees were compared. All 79 integrated evidence files remain byte-identical to their manifest. No simulation or new scientific analysis was performed.
+
+Public history is retained. Older commits, tags, branches, copies and caches can still contain original wording or metadata. This is an editorial revision of the current tree, not a historical erasure or guarantee of privacy. Exact original evidence reports may retain contemporaneous administrative language. AI assistance and the absence of external peer review are explicitly disclosed.
+
+Normal research navigation points to the reviewed files in the current tree. Historical version tags and commit identifiers are recorded as plain technical identifiers in [technical provenance](PUBLIC_TECHNICAL_PROVENANCE.md), not as direct links to superseded files. This does not restrict access to public Git history.

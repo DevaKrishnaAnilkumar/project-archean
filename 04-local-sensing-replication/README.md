@@ -1,8 +1,8 @@
 # Local-sensing replication — 20 fresh seeds
 
-[Back to research overview](../README.md) · [Exact historical checkpoint](https://github.com/DevaKrishnaAnilkumar/project-archean/tree/769c9052e856cddc86228d58dbd9bbbf978f6484)
+[Back to research overview](../README.md) · [Reviewed historical files](snapshot/) · [Technical provenance](../workspace/docs/PUBLIC_TECHNICAL_PROVENANCE.md)
 
-This is a retrospective guide. The `snapshot/` directory preserves the entire tracked tree at commit `769c9052e856cddc86228d58dbd9bbbf978f6484` byte-for-byte, including its original README and relative paths. This is a historical checkpoint, not a newly run experiment.
+This is a retrospective guide to historical checkpoint `769c9052e856cddc86228d58dbd9bbbf978f6484`. The `snapshot/` directory is a curated copy with editorial revisions to documentation and source annotations; executable logic and recorded results are retained. Exact original files are preserved separately. This is not a newly run experiment.
 
 ## Research question
 Does the genuine-cue advantage from the six-seed pilot persist across fresh evolutionary populations?
@@ -13,7 +13,7 @@ Twenty fresh training seeds (6–25) used the same field and paired cue interven
 Mean reach was 74.5% with genuine cues and 26.6% with shuffled cues. The median paired advantage was 57.2 percentage points. Genuine cues outperformed shuffling in all 20 seeds; 10 of 20 exceeded 85% reach. The zero-cue mean was 20.0%.
 
 ## Evidence
-- [Original README (unchanged)](snapshot/README.md)
+- [Historical model overview (editorially revised)](snapshot/README.md)
 - [Replication protocol, figure and results](snapshot/LOCAL_SENSING_REPLICATION.md)
 - [Paired rates](snapshot/replication_results/paired_rates.csv) and [raw archives](snapshot/replication_results/)
 - [Pilot design](snapshot/LOCAL_SENSING.md)

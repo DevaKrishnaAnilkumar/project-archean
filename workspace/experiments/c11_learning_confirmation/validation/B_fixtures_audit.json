@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "study": "B",
+  "phase": "fixtures",
+  "worlds": 4,
+  "replays": 32,
+  "actions": 60976,
+  "births": 587,
+  "deaths": 571,
+  "extinct": 1,
+  "all_action_rng_replayed": true,
+  "all_mutations_and_passive_events_replayed": true
+}
